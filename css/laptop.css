@@ -1,7 +1,39 @@
-/* video {
+nav {
+   background-color: white;
+}
+
+nav > ul {
+   text-align: center;
+}
+
+nav > ul > li {
+   width: 150px;
+   display: inline-block;
+}
+
+nav > ul > li:last-of-type {
+   border-left: 1px solid black;
+}
+
+a:hover {
+   color: black;
+}
+
+a {
+   color: #707271;
+   text-decoration: none;
+}
+
+h1 {
+   font-size: 30px;
+   font-weight: 700;
+   text-align: center;
+}
+
+video {
    border: 0;
    display: block;
    margin: auto;
    width: 964px;
    height: 542px;
-} */
+}
