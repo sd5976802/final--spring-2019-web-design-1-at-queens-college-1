@@ -10,3 +10,7 @@ a {
    color: #707271;
    text-decoration: none;
 }
+
+.current {
+   color: black;
+}
