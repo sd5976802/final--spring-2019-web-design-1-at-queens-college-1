@@ -1,34 +1,42 @@
 nav {
    background-color: white;
+   position: relative;
+   margin-left: 455px;
+   margin-top: 25px;
 }
 
-nav > ul {
-   text-align: center;
+main {
+   margin-top: 90px;
+   position: relative;
 }
 
 nav > ul > li {
-   width: 150px;
+   padding: 0 18px;
+   text-align: center;
    display: inline-block;
    font-size: 21px;
 }
 
 nav > ul > li:last-of-type {
-   border-left: 1px solid black;
-}
-
-a:hover {
-   color: black;
-}
-
-a {
-   color: #707271;
-   text-decoration: none;
+   border-left: 1px solid #707271;
 }
 
 h1 {
    font-size: 30px;
    font-weight: 700;
    text-align: center;
+}
+
+.big {
+   margin: auto;
+   width: 964px;
+}
+
+.small {
+   margin: auto;
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 15px;
 }
 
 video {
