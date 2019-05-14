@@ -33,19 +33,19 @@ h1 {
    text-align: center;
 }
 
-.big {
+.big-photo {
    margin: auto;
    width: 964px;
 }
 
-.small {
+.small-photo {
    margin: auto;
    display: flex;
    justify-content: space-evenly;
    padding-top: 15px;
 }
 
-video {
+.animation-video {
    border: 0;
    display: block;
    margin: auto;
@@ -53,9 +53,8 @@ video {
    height: 542px;
 }
 
-video:last-of-type {
+.design-video {
    border: 0;
-   margin: auto;
    width: 308px;
    height: 652px;
 }
