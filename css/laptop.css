@@ -57,10 +57,15 @@ h1 {
    padding-top: 15px;
 }
 
+/* Container for video elements */
 .animation-video {
-   border: 0;
    display: block;
    margin: auto;
+   width: 964px;
+}
+
+.animation-video > video {
+   border: 0;
    width: 964px;
    height: 542px;
 }
