@@ -5,6 +5,12 @@ nav {
    margin-top: 25px;
 }
 
+.logo {
+   margin-top: 4px;
+   margin-left: 22px;
+   position: absolute;
+}
+
 main {
    margin-top: 90px;
    position: relative;
