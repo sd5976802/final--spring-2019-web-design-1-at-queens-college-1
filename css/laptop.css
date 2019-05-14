@@ -52,3 +52,10 @@ video {
    width: 964px;
    height: 542px;
 }
+
+video:last-of-type {
+   border: 0;
+   margin: auto;
+   width: 308px;
+   height: 652px;
+}
