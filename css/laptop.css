@@ -99,6 +99,18 @@ h1 {
 }
 
 /* Design */
+.design-catalogue {
+   margin: auto;
+   margin-top: 80px;
+   width: 964px;
+}
+
+.design-catalogue > img {
+   width: 964px;
+   height: 642px;
+   padding: 9px 0;
+   margin: auto;
+}
 
 .design-video {
    border: 0;
@@ -107,7 +119,6 @@ h1 {
 }
 
 /* About */
-
 .about-image {
    position: relative;
    width: 308px;
