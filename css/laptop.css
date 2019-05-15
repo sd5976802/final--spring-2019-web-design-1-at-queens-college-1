@@ -132,10 +132,24 @@ p:nth-of-type(2) {
 
 p:nth-of-type(3) {
    position: absolute;
-   font-size: 20px;
-   top: 753px;
-   left: 30px;
+   font-size: 29px;
+   top: 736px;
+   left: 172px;
    letter-spacing: 1px;
+}
+
+.fab.fa-linkedin-in {
+   position: absolute;
+   top: 765px;
+   left: 30px;
+   font-size: 32px;
+}
+
+.far.fa-envelope {
+   position: absolute;
+   top: 765px;
+   left: 92px;
+   font-size: 32px;
 }
 
 p:nth-of-type(4) {
