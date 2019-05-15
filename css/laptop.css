@@ -34,6 +34,8 @@ h1 {
    margin: 13px;
 }
 
+/* Photography */
+
 .hint-of-color {
    margin-top: 80px;
 }
@@ -70,24 +72,41 @@ h1 {
    height: 642px;
 }
 
-/* Container for video elements */
+/* Animation */
+
 .animation-video {
    display: block;
    margin: auto;
    width: 964px;
+   margin-top: 80px;
 }
 
-.animation-video > video {
+.alien > video {
    border: 0;
    width: 964px;
    height: 542px;
 }
+
+.megaphone > video {
+   border: 0;
+   width: 964px;
+   height: 542px;
+}
+
+.megaphone {
+   margin-top: 80px;
+   margin-bottom: 85px;
+}
+
+/* Design */
 
 .design-video {
    border: 0;
    width: 308px;
    height: 652px;
 }
+
+/* About */
 
 .about-image {
    width: 308px;
