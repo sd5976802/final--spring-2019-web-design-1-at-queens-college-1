@@ -2,7 +2,7 @@ body {
    background-color: #ffffff;
    background-repeat: no-repeat;
    color: #282690;
-   font-family: 'Roboto Slab', serif;
+   font-family: 'Libre Baskerville', serif;
    overflow-x: hidden;
 }
 
@@ -18,7 +18,7 @@ a:hover {
 
 .flex-container {
   display: flex;
-  height: 200px;
+  height: 100px;
   align-items: center;
   display: flex;
   justify-content: space-around;
@@ -27,7 +27,7 @@ a:hover {
 
 .body {
   display: flex;
-  height: 200px;
+  height: 500px;
   align-items: center;
   display: flex;
   justify-content: space-around;
@@ -37,7 +37,7 @@ a:hover {
 
 .footer {
   display: flex;
-  height: 200px;
+  height: 100px;
   align-items: center;
   display: flex;
   justify-content: space-around;
