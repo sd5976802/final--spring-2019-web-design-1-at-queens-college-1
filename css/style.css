@@ -4,11 +4,12 @@ body {
    color: #282690;
    font-family: 'Libre Baskerville', serif;
    overflow-x: hidden;
+   font-size: 18px
 }
 
 a:link {
   color: #1b1b1b;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 a:hover {
@@ -27,7 +28,7 @@ a:hover {
 
 .body {
   display: flex;
-  height: 500px;
+  height: 600px;
   align-items: center;
   display: flex;
   justify-content: space-around;
@@ -47,14 +48,4 @@ a:hover {
 }
 img {
    width: 175px
-}
-b:link {
-  color: #1b1b1b;
-  text-decoration: none;
-}
-
-b
-:hover {
-  color: red;
-  text-decoration: none;
 }
