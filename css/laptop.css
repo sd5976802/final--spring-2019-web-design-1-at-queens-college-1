@@ -12,7 +12,7 @@ nav {
 }
 
 main {
-   margin-top: 90px;
+   margin-top: 140px;
    position: relative;
 }
 
@@ -34,16 +34,17 @@ h1 {
    margin: 13px;
 }
 
-.lauren {
-   margin-top: 80px;
-}
-
 .hint-of-color {
    margin-top: 80px;
 }
 
 .barber-shop {
    margin-top: 80px;
+}
+
+.lauren {
+   margin-top: 80px;
+   margin-bottom: 85px;
 }
 
 .big-photo {
