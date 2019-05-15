@@ -45,3 +45,16 @@ a:hover {
   padding: 1em 1em;
   color: #ffffff;
 }
+img {
+   width: 175px
+}
+b:link {
+  color: #1b1b1b;
+  text-decoration: none;
+}
+
+b
+:hover {
+  color: red;
+  text-decoration: none;
+}
