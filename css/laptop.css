@@ -117,28 +117,39 @@ h1 {
 
 p:nth-of-type(1) {
    position: relative;
-   font-size: 28px;
+   font-size: 30px;
    font-weight: 700;
    text-align: center;
 }
 
 p:nth-of-type(2) {
    position: relative;
-   font-size: 33px;
-   bottom: 10px;
+   font-size: 35px;
+   letter-spacing: 5px;
+   bottom: 27px;
    text-align: center;
 }
 
 p:nth-of-type(3) {
    position: absolute;
-   font-size: 22px;
-   top: 690px;
+   font-size: 20px;
+   top: 753px;
+   left: 30px;
+   letter-spacing: 1px;
 }
 
 p:nth-of-type(4) {
    position: absolute;
-   font-size: 29px;
+   font-size: 31px;
    text-decoration: underline;
-   top: 690px;
-   left: 840px;
+   top: 728px;
+   left: 830px;
+}
+
+p > a {
+   color: black;
+}
+
+p > a:hover {
+   color: #a6aaa8;
 }
