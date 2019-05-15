@@ -97,7 +97,7 @@ a:link {
 }
 
 #aboutme {
-   background-color: white;
+   background-color: black;
    color: inherit;
    width: 1200px;
    height: 900px;
@@ -108,13 +108,24 @@ a:link {
    margin-top: 135px;
 }
 
+#aboutme p {
+   font-size: 20px;
+   width: 498px;
+   height: 202px;
+   color: white;
+   background-color: inherit;
+   font-family: 'Nanum Myeongjo', serif;
+   margin-left: 600px;
+}
+
 #contact {
-   background-color: white;
+   background-color: black;
    color: inherit;
    width: 1200px;
    height: 900px;
 }
 
 #contact img {
-
+   margin-bottom: -887px;
+   margin-left: 80px;
 }
