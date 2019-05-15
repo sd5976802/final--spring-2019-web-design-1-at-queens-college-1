@@ -112,6 +112,29 @@ h1 {
    margin: auto;
 }
 
+.main-poster-title {
+   margin-top: 58px;
+}
+
+.poster-location {
+   margin: auto;
+   display: flex;
+   width: 964px;
+   justify-content: space-between;
+}
+
+.poster-title > h1 {
+   display: inline-block;
+}
+
+.poster-title > h1:nth-of-type(1) {
+   margin-left: 21px;
+}
+
+.poster-title > h1:nth-of-type(2) {
+   margin-left: 396px;
+}
+
 .design-video {
    border: 0;
    width: 308px;
