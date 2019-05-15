@@ -136,7 +136,13 @@ h1 {
 }
 
 .design-video {
-   border: 0;
+   display: block;
+   margin: auto;
+   width: 308px;
+   margin-top: 80px;
+}
+
+.design-video > video {
    width: 308px;
    height: 652px;
 }
