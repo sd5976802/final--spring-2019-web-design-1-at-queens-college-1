@@ -2,7 +2,7 @@ nav {
    background-color: white;
    position: relative;
    margin-left: 455px;
-   margin-top: 25px;
+   margin-top: 50px;
 }
 
 .logo {
@@ -12,7 +12,7 @@ nav {
 }
 
 main {
-   margin-top: 140px;
+   margin-top: 80px;
    position: relative;
 }
 
@@ -24,7 +24,7 @@ nav > ul > li {
 }
 
 nav > ul > li:last-of-type {
-   border-left: 1px solid #707271;
+   border-left: 1px solid #a6aaa8;
 }
 
 h1 {
