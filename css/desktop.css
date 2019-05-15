@@ -1,0 +1,120 @@
+html {
+   overflow-x: hidden;
+   width: 1200px;
+   height: 900px;
+}
+
+#home {
+   width: 1200px;
+   height: 900px;
+}
+
+#home header img {
+   margin-left: 230px;
+   margin-top: 232px;
+}
+
+nav {
+   position: fixed;
+   transform: rotate(-90deg);
+   top: 409px;
+   left: -330px;
+   width: 750px;
+   background-color: black;
+   color: inherit;
+   box-shadow: 0 0 0 white;
+   float: left;
+}
+
+nav > ul {
+   text-align: center;
+   margin-left: -40px;
+   list-style-type: none;
+}
+
+nav > ul > li {
+   border-left: 1px solid white;
+   width: 185px;
+   background-color: black;
+   color: inherit;
+   display: inline-block;
+}
+
+nav > ul > li:last-of-type {
+   border-right: 1px solid white;
+}
+
+nav > ul > li > a {
+   display: block;
+   width: 100%;
+   padding: 20px 0;
+   transition: 200ms;
+}
+
+nav > ul > li > a:link {
+   color: white;
+   background-color: inherit;
+}
+
+nav > ul > li > a:hover {
+   background-color: white;
+   color: inherit;
+}
+
+a:link {
+   text-decoration: none;
+}
+
+.row1 {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 153px;
+   width: 957px;
+   padding-bottom: 15px;
+   padding-top: 55px;
+}
+
+.row2 {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 153px;
+   width: 957px;
+   padding-bottom: 15px;
+}
+
+.row3 {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 153px;
+   width: 957px;
+}
+
+#portfolio {
+   background-color: black;
+   color: inherit;
+   width: 1200px;
+   height: 900px;
+}
+
+#aboutme {
+   background-color: white;
+   color: inherit;
+   width: 1200px;
+   height: 900px;
+}
+
+#aboutme img {
+   margin-left: 163px;
+   margin-top: 135px;
+}
+
+#contact {
+   background-color: white;
+   color: inherit;
+   width: 1200px;
+   height: 900px;
+}
+
+#contact img {
+
+}
