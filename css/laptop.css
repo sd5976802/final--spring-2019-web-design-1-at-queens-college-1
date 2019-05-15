@@ -31,18 +31,19 @@ h1 {
    font-size: 30px;
    font-weight: 700;
    text-align: center;
+   padding-bottom: 20px;
 }
 
 .lauren {
-   margin-top: 100px;
+   margin-top: 130px;
 }
 
 .hint-of-color {
-   margin-top: 50px;
+   margin-top: 80px;
 }
 
 .barber-shop {
-   margin-top: 50px;
+   margin-top: 80px;
 }
 
 .big-photo {
@@ -50,11 +51,28 @@ h1 {
    width: 964px;
 }
 
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
 .small-photo {
    margin: auto;
    display: flex;
-   justify-content: space-evenly;
+   width: 964px;
+   justify-content: space-between;
    padding-top: 15px;
+}
+
+.small-photo > img {
+   width: 308px;
+   height: 205px;
+}
+
+.big-photo > img {
+   width: 964px;
+   height: 642px;
 }
 
 /* Container for video elements */
