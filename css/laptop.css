@@ -172,7 +172,7 @@ p:nth-of-type(3) {
    position: absolute;
    font-size: 29px;
    top: 736px;
-   left: 172px;
+   left: 155px;
    letter-spacing: 1px;
 }
 
@@ -197,8 +197,6 @@ p:nth-of-type(4) {
    margin: auto;
    margin-left: 822px;
    margin-top: 151px;
-   /* top: 728px;
-   left: 830px; */
 }
 
 p > a {
