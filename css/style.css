@@ -1,3 +1,12 @@
+html,
+body,
+.flex-container,
+.body,
+.footer {
+   margin: 0;
+   border: 0;
+}
+
 body {
    background-color: #ffffff;
    background-repeat: no-repeat;
@@ -6,17 +15,12 @@ body {
    overflow-x: hidden;
 }
 
-a:link {
-  color: #1b1b1b;
-  text-decoration: underline;
-}
-
 a:hover {
   color: red;
   text-decoration: none;
 }
 
-.flex-container {
+.nav {
   display: flex;
   height: 100px;
   align-items: center;
@@ -25,7 +29,12 @@ a:hover {
   background-color: #F6F4F3;
 }
 
-.body {
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
   display: flex;
   height: 600px;
   align-items: center;
@@ -35,7 +44,7 @@ a:hover {
   padding: 1em 1em;
 }
 
-.footer {
+#footer {
   display: flex;
   height: 100px;
   align-items: center;
@@ -44,6 +53,11 @@ a:hover {
   background-color: #0C1B3F;
   padding: 1em 1em;
   color: #ffffff;
+}
+#na,
+#co,
+#sp {
+   font-size: 1.5rem;
 }
 img {
    width: 175px
