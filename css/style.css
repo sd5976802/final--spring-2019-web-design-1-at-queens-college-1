@@ -67,8 +67,9 @@ nav + p {
 } */
 
 .container {
-
-/* margin: auto;
-      width: 1260px;
-display: flex; */
+   margin: auto;
+   width: 1260px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
 }
