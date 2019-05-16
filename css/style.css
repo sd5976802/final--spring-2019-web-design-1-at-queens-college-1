@@ -1,64 +1,74 @@
-html,
-body,
-.flex-container,
-.body,
-.footer {
+* {
    margin: 0;
-   border: 0;
+   padding: 0;
 }
 
-body {
-   background-color: #ffffff;
-   background-repeat: no-repeat;
-   color: #000000;
-   font-family: 'Libre Baskerville', serif;
-   overflow-x: hidden;
+@media (max-width: 400px) {
+   p {
+      color: red;
+   }
 }
 
-a:hover {
-  color: red;
-  text-decoration: none;
+@media (min-width: 401px) and (max-width: 768px) {
+   p {
+      color: green;
+   }
 }
 
-.nav {
-  display: flex;
-  height: 100px;
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-  background-color: #F6F4F3;
-}
+@media (min-width: 769px) and (max-width: 1024px) {
+   body {
+      background-color: #ffffff;
+      background-repeat: no-repeat;
+      color: #000000;
+      font-family: 'Libre Baskerville', serif;
+      overflow-x: hidden;
+   }
 
-a {
-  text-decoration: none;
-  color: black;
-}
+   a:hover {
+     color: red;
+     text-decoration: none;
+   }
 
-.content {
-  display: flex;
-  height: 600px;
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-  background-color: #B9D6F0;
-  padding: 1em 1em;
-}
+   .nav {
+     display: flex;
+     height: 100px;
+     align-items: center;
+     display: flex;
+     justify-content: space-around;
+     background-color: #F6F4F3;
+   }
 
-#footer {
-  display: flex;
-  height: 100px;
-  align-items: center;
-  display: flex;
-  justify-content: space-around;
-  background-color: #0C1B3F;
-  padding: 1em 1em;
-  color: #ffffff;
-}
-#na,
-#co,
-#sp {
-   font-size: 1.5rem;
-}
-img {
-   width: 175px
+   a {
+     text-decoration: none;
+     color: black;
+   }
+
+   .content {
+     display: flex;
+     height: 600px;
+     align-items: center;
+     display: flex;
+     justify-content: space-around;
+     background-color: #B9D6F0;
+     padding: 1em 1em;
+   }
+
+   #footer {
+     display: flex;
+     height: 100px;
+     align-items: center;
+     display: flex;
+     justify-content: space-around;
+     background-color: #0C1B3F;
+     padding: 1em 1em;
+     color: #ffffff;
+   }
+   #na,
+   #co,
+   #sp {
+      font-size: 1.5rem;
+   }
+   img {
+      width: 175px
+   }
 }
