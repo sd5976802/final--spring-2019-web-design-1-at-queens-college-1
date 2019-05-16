@@ -52,25 +52,25 @@ h1 {
 
 .big-photo {
    margin: auto;
-   width: 964px;
+   width: 736px;
 }
 
 .small-photo {
    margin: auto;
    display: flex;
-   width: 964px;
+   width: 736px;
    justify-content: space-between;
    padding-top: 15px;
 }
 
 .small-photo > img {
-   width: 308px;
-   height: 205px;
+   width: 232px;
+   height: 154px;
 }
 
 .big-photo > img {
-   width: 964px;
-   height: 642px;
+   width: 736px;
+   height: 490px;
 }
 
 /* Animation */
