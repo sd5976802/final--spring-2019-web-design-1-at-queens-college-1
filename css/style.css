@@ -4,7 +4,12 @@ body {
    background-color: white;
 }
 
-nav {
+/* nav {
+   font-family: 'Lato', sans-serif;
+   font-style: normal;
+   font-variant: small-caps;
+   font-weight: 400;
+   font-size: 20px;
    position: fixed;
    top: 0;
    left: 0;
@@ -14,10 +19,56 @@ nav {
    box-shadow: 0 0 5px black;
    list-style-type: none;
    padding-top: 15px;
+} */
+
+/* nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   background-color: white;
+   box-shadow: 0 2px 8px grey;
 }
 
+nav > ul {
+   text-align: center;
+   margin-left: -40px;
+   list-style-type: none;
+}
+
+nav > ul > li {
+   border-left: 1px solid white;
+   width: 100px;
+   background-color: #fe7f9c;
+   display: inline-block;
+}
+
+nav > ul > li:last-of-type {
+   border-right: 1px solid white;
+}
+
+nav > ul > li > a {
+   display: block;
+   width: 100%;
+   padding: 20px 0;
+   transition: 375ms;
+}
+
+nav > ul > li > a:link {
+   color: white;
+}
+
+nav > ul > li > a:hover {
+   background-color: pink;
+}
+
+nav + p {
+   margin-top: 120.4px;
+} */
+
 .container {
-   width: 1260px;
-   display: flex;
-   justify-content: space-around;
+
+/* margin: auto;
+      width: 1260px;
+display: flex; */
 }
