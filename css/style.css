@@ -1,0 +1,23 @@
+body {
+   margin: auto;
+   width: 1366px;
+   background-color: white;
+}
+
+nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 30px;
+   background-color: black;
+   box-shadow: 0 0 5px black;
+   list-style-type: none;
+   padding-top: 15px;
+}
+
+.container {
+   width: 1260px;
+   display: flex;
+   justify-content: space-around;
+}
