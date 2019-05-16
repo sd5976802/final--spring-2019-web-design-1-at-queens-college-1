@@ -52,7 +52,7 @@ On the other hand, if you scored 100 and your project generated **no** errors, t
 ## 📅 Due Date
 The following due date applies to both the Monday *and* Tuesday sections.
 
-⏰ **Sunday, 19 May 2019, at 5:00 PM. 🚫 _No late work will be accepted._**
+⏰ **Monday, 20 May 2019, at 6:00 PM. 🚫 _No late work will be accepted._**
 
 ## Submission
 1. Login to GitHub.
