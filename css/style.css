@@ -1,7 +1,7 @@
 body {
    margin: auto;
    width: 1366px;
-   background-color: white;
+   background-color: black;
 }
 
 /* nav {
@@ -21,53 +21,61 @@ body {
    padding-top: 15px;
 } */
 
-/* nav {
+nav {
    position: fixed;
    top: 0;
    left: 0;
    width: 100vw;
-   background-color: white;
-   box-shadow: 0 2px 8px grey;
+   height: 50px;
+   /* border-bottom: 10px solid #3b3b3c; */
+   background-color: #3b3b3c;
+   font-family: Lato, sans-serif;
+   color: white;
 }
 
 nav > ul {
-   text-align: center;
-   margin-left: -40px;
-   list-style-type: none;
+   display: flex;
+   /* justify-content: space-around; */
+   justify-content: space-between;
+   width: 1260px;
+   margin: auto;
 }
 
 nav > ul > li {
-   border-left: 1px solid white;
-   width: 100px;
-   background-color: #fe7f9c;
+   width: 30%;
+   margin: auto;
+   text-align: center;
    display: inline-block;
 }
 
-nav > ul > li:last-of-type {
+/* nav > ul > li:last-of-type {
    border-right: 1px solid white;
-}
+} */
 
 nav > ul > li > a {
    display: block;
-   width: 100%;
+   /* width: 100%; */
+   /* margin: auto; */
    padding: 20px 0;
    transition: 375ms;
 }
 
 nav > ul > li > a:link {
    color: white;
+   text-decoration: none;
 }
 
 nav > ul > li > a:hover {
-   background-color: pink;
+   background-color: black;
 }
 
-nav + p {
-   margin-top: 120.4px;
-} */
+nav > ul > li > a:visited {
+   color: white;
+}
 
 .container {
    margin: auto;
+   margin-top: 100px;
    width: 1260px;
    display: flex;
    flex-wrap: wrap;
