@@ -1,14 +1,16 @@
 nav {
    background-color: white;
-   margin-left: 455px;
+   margin-left: 18px;
    margin-top: 50px;
-   width: 100vw;
+   width: 700px;
 }
 
 .logo {
-   margin-top: 3px;
-   margin-left: 22px;
-   position: absolute;
+   margin: auto;
+   margin-top: 52px;
+   margin-left: 220px;
+   width: 324px;
+   height: 18px;
 }
 
 main {
@@ -17,7 +19,7 @@ main {
 }
 
 nav > ul > li {
-   padding: 0 18px;
+   padding: 0 34px;
    display: inline-block;
    font-size: 21px;
 }
