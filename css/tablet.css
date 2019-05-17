@@ -121,7 +121,10 @@ h1 {
 .poster-location > div > img {
    width: 568px;
    height: 850px;
-   margin-top: 90px;
+}
+
+.poster-location > div:last-of-type > img {
+   margin-top: 200px;
 }
 
 .poster-location {
@@ -136,7 +139,7 @@ h1 {
 .poster-title > h1:nth-of-type(2) {
    position: absolute;
    margin-left: 330px;
-   margin-top: 700px;
+   margin-top: 950px;
 }
 
 .design-video {
