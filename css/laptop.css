@@ -127,6 +127,11 @@ h1 {
    justify-content: space-between;
 }
 
+.poster-location > div > img {
+   width: 472px;
+   height: 708px;
+}
+
 .poster-title > h1 {
    display: inline-block;
 }

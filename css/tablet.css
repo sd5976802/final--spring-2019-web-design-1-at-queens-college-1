@@ -8,7 +8,7 @@ nav {
 .logo {
    margin: auto;
    margin-top: 52px;
-   margin-left: 220px;
+   margin-left: 222px;
    width: 324px;
    height: 18px;
 }
@@ -107,6 +107,7 @@ h1 {
 }
 
 .design-catalogue > img {
+   position: relative;
    width: 736px;
    height: 490px;
    padding: 9px 0;
@@ -117,9 +118,10 @@ h1 {
    margin-top: 58px;
 }
 
-.poster.location > div > img {
+.poster-location > div > img {
    width: 568px;
    height: 850px;
+   margin-top: 90px;
 }
 
 .poster-location {
@@ -129,6 +131,12 @@ h1 {
 
 .poster-title > h1:nth-of-type(1) {
    margin-left: 21px;
+}
+
+.poster-title > h1:nth-of-type(2) {
+   position: absolute;
+   margin-left: 330px;
+   margin-top: 700px;
 }
 
 .design-video {
