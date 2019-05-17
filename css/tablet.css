@@ -100,6 +100,10 @@ h1 {
 }
 
 /* Design */
+.design-catalogue > h1 {
+   margin-bottom: 8px;
+}
+
 .design-catalogue {
    margin: auto;
    margin-top: 80px;
@@ -124,7 +128,7 @@ h1 {
 }
 
 .poster-location > div:last-of-type > img {
-   margin-top: 200px;
+   margin-top: 146px;
 }
 
 .poster-location {
@@ -145,13 +149,14 @@ h1 {
 .design-video {
    display: block;
    margin: auto;
-   width: 308px;
+   width: 400px;
    margin-top: 80px;
 }
 
 .design-video > video {
-   width: 308px;
-   height: 652px;
+   width: 400px;
+   height: 848px;
+   margin-bottom: 73px;
 }
 
 /* About */
