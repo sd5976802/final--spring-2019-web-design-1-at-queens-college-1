@@ -8,9 +8,179 @@
     <link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+	<script src="js/jquery.scrollify.js"></script>
+	<script>
+        $(function() {
+          $.scrollify({
+            section : ".section",
+          });
+        });
+     </script>
 </head>
 <body>
-	test
-	
+	<div class="section">
+		<div class="logo">
+			<img src="img/logo.png" alt="Albert's Logo">
+			<span>ALBERT HUANG</span>
+		</div>
+		
+		<nav>
+			<div class="menuItem">
+				<div id="homepageMenuLine">
+				</div>
+				<div id="homepageMenuName">HOMEPAGE</div>
+			</div>
+			<div class="menuItem">
+				<div id="portfolioMenuLine">
+				</div>
+				<div id="portfolioMenuName">PORTFOLIO</div>
+			</div>
+			<div class="menuItem">
+				<div id="aboutMeMenuLine">
+				</div>
+				<div id="aboutMeMenuName">ABOUT ME</div>
+			</div>
+			<div class="menuItem">
+				<div id="contactMemenuLine">
+				</div>
+				<div id="contactMemenuName">CONTACT ME</div>
+			</div>
+		</nav>
+		
+		<div class="socialMedia">
+			<a href="https://twitter.com/alerhan1" target="_blank"><img src="img/twitterIcon.png" alt="twitter icon"></a>
+			<a href="https://www.linkedin.com/in/albert-huang-b6898472/" target="_blank"><img src="img/linkedlnIcon.png" alt="linkedln icon"></a>	
+		</div>
+		
+		<div class="pageNumber">
+			<img src="img/upArrow.png" alt="up arrow">
+			<span id="pageNumberText">1 / 4</span>
+			<img src="img/downArrow.png" alt="down arrow">
+		</div>
+		
+		<div class="mainContent">
+			<div>
+				<em>Hello!</em>
+				<p>My name is Albert Huang.</p>
+				<p>I’m a designer from New York.</p>
+				<p>I build and design digital products.</p>
+			</div>
+			
+			<div id="scrollText">
+				<p>SCROLL</p>
+				
+					<img src="img/scrollLine.jpg" alt="">
+			
+			</div>	
+		</div>
+	</div>
+	<div class="section">
+		<div class="portfolioContent">
+			<div class="thumbContainer">
+				<img src="img/xwingThumb.png" alt="X-wing piece">
+				<div id="xWingThumbDescription">
+					<h1>X-WING FIGHTER</h1>
+					<hr>
+					<p>
+						A PROJECT I DID USING  CINEMA 4D TO RENDER 
+AND COMPOSE THE IMAGE TOGETHER.
+					</p>
+				</div>
+			</div>	
+			
+			<div class="thumbContainer">
+				<img src="img/spaceThumb.png" alt="X-wing piece">
+				<div id="spaceThumbDescription">
+					<h1>X-WING FIGHTER</h1>
+					<hr>
+					<p>
+						A PROJECT I DID USING  CINEMA 4D TO RENDER 
+AND COMPOSE THE IMAGE TOGETHER.
+					</p>
+				</div>
+			</div>	
+			
+			<div class="thumbContainer">
+				<img src="img/barneyThumb.png" alt="X-wing piece">
+				<div id="barneyThumbDescription">
+					<h1>X-WING FIGHTER</h1>
+					<hr>
+					<p>
+						A PROJECT I DID USING  CINEMA 4D TO RENDER 
+AND COMPOSE THE IMAGE TOGETHER.
+					</p>
+				</div>
+			</div>	
+			
+			<div class="thumbContainer">
+				<img src="img/cubeThumb.png" alt="X-wing piece">
+				<div id="cubeThumbDescription">
+					<h1>X-WING FIGHTER</h1>
+					<hr>
+					<p>
+						A PROJECT I DID USING  CINEMA 4D TO RENDER 
+			AND COMPOSE THE IMAGE TOGETHER.
+					</p>
+				</div>
+			</div>
+			
+			<div class="thumbContainer">
+				<img src="img/lamboThumb.png" alt="X-wing piece">
+				<div id="lamboThumbDescription">
+					<h1>X-WING FIGHTER</h1>
+					<hr>
+					<p>
+						A PROJECT I DID USING  CINEMA 4D TO RENDER 
+			AND COMPOSE THE IMAGE TOGETHER.
+					</p>
+				</div>
+			</div>
+			
+			<div class="thumbContainer">
+				<img src="img/parrotThumb.png" alt="X-wing piece">
+				<div id="parrotThumbDescription">
+					<h1>X-WING FIGHTER</h1>
+					<hr>
+					<p>
+						A PROJECT I DID USING  CINEMA 4D TO RENDER 
+			AND COMPOSE THE IMAGE TOGETHER.
+					</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="section">
+		<p>test text</p>
+	</div>
+	<div class="section">
+		<div class="contactMeForm">
+			<form action="mailto:email.for.albert@gmail.com" enctype="text/plain" method="POST">
+				<ul>
+					
+					<li>
+						<input type="text" id="name" name="Name" placeholder="Name">
+					</li>
+					
+					<li>
+						<input type="email" id="mail" name="E-mail" placeholder="E-mail">
+					</li>
+					
+					<li>
+						<input type="text" id="subject" name="Subject" placeholder="Subject">
+					</li>
+					
+					<li>
+						<textarea id="message" name="Message" placeholder="Message"></textarea>
+					</li>
+					
+					<li>
+						<input type="submit" value="submit">
+					</li>
+					
+				</ul>
+			</form>
+		</div>
+	</div>
 </body>
 </html>
