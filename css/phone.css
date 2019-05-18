@@ -1,6 +1,5 @@
 body {
-   height: 400px;
-   width: 300px;
+   max-width: 400px;
    background-color: yellow;
    font-family: Barlow, sans-serif;
 }
