@@ -1,9 +1,14 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
 body {
-   background-color: #d0ccc3;
+   background-color: #d5d5d5;
    font-family: Barlow, sans-serif;
 }
 
-nav {
+.navbar-link {
    position: fixed;
    top: 0;
    left: 0;
@@ -12,45 +17,53 @@ nav {
    box-shadow: 0 2px 8px grey;
 }
 
-nav > ul {
+.navbar-link > ul {
    text-align: center;
    margin-left: -100px;
    list-style-type: none;
 }
 
-nav > ul > li {
+.navbar-link > ul > li {
    width: 200px;
    display: inline-block;
 }
 
-nav > ul > li > a {
+.navbar-link > ul > li > a {
    display: block;
    width: 100%;
    padding: 20px 0;
    transition: 375ms;
 }
 
-nav > ul > li > a:link {
+.navbar-link > ul > li > a:link {
    color: white;
    font-size: 20px;
 }
 
-nav > ul > li > a:hover {
+.navbar-link > ul > li > a:hover {
    background-color: #d0ccc3;
    color: black;
 }
 
-nav > ul > li > a:active {
+.navbar-link > ul > li > a:active {
    background-color: yellow;
 }
 
-nav > ul > li > a:visited {
+.navbar-link > ul > li > a:visited {
    color: grey;
 }
 
-h1 {
-   margin-top: -900px;
-   font-size: 100px;
+label {
+   margin: 0 40px 0 0;
+   font-size: 40px;
+   line-height: 70px;
+   display: none;
+   width: 26px;
+   float: left;
+}
+
+#toggle {
+   display: none;
 }
 
 .current {
@@ -58,25 +71,58 @@ h1 {
    font-size: 20px;
 }
 
-.container {
-   margin-top: 100px;
-   display: flex;
-   margin-left: 64px;
+#slider {
+   overflow: hidden;
 }
 
-.container > img {
+#slider figure {
    position: relative;
+   width: 500%;
+   margin-top: 60px;
+   margin-left: 0;
    padding: 50px;
+   animation: 15s slider infinite;
 }
 
-.section {
-   margin: auto;
-   display: flex;
+#slider figure img {
+   width: 20%;
+   float: left;
 }
 
-.section > img {
-   width: 212px;
-   height: 159px;
-   position: relative;
-   padding: 30px;
+@keyframes slider {
+   0% {
+      left: 0;
+   }
+
+   20% {
+      left: 0;
+   }
+
+   25% {
+      left: -100%;
+   }
+
+   45% {
+      left: -100%;
+   }
+
+   50% {
+      left: -200%;
+   }
+
+   70% {
+      left: -200%;
+   }
+
+   75% {
+      left: -300%;
+   }
+
+   95% {
+      left: -300%;
+   }
+
+   100% {
+      left: -400%;
+   }
 }

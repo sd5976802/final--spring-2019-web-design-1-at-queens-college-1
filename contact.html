@@ -3,6 +3,7 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>JieyunXiaoWebsite</title>
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/phone.css"   media="(max-width: 400px)">
@@ -11,33 +12,16 @@
    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
 </head>
 <body>
-  <nav>
-        <ul>
-           <li><a href="home.html">Home</a></li>
-           <li><a href="portfolio.html">Portfolio</a></li>
-           <li><a href="aboutme.html">About Me</a></li>
-           <li><div class="current"><a href="contact.html">Contact</a></div></li>
+  <label for="toggle">&#9776;</label>
+    <input type="checkbox" id="toggle"/>
+  <nav class="navbar-link">
+      <ul>
+         <li><div class="current"><a href="home.html">Home</a></div></li>
+         <li><a href="portfolio.html">Portfolio</a></li>
+         <li><a href="aboutme.html">About Me</a>
+         <li><a href="contact.html">Contact</a></li>
         </ul>
        </nav>
-       <div class="contact-box">
-         <h1>Contact me here</h1>
-         <div class="textbox">
-           <label>Full Name :</label>
-           <input type="text" name="" value="" placeholder="Enter Your Name">
-         </div>
-         <div class="textbox">
-           <label>Email :</label>
-           <input type="email" name="" value="" placeholder="Enter Your Email">
-         </div>
-         <div class="textbox">
-           <label>Phone Number :</label>
-           <input type="text" name="" value="" placeholder="Enter Your Number">
-         </div>
-         <div class="textbox">
-           <label>Message :</label>
-           <textarea></textarea>
-         </div>
 
-         </div>
 </body>
 </html>

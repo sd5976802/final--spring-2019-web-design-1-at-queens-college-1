@@ -1,5 +1,19 @@
-body {
-   max-width: 400px;
-   background-color: yellow;
-   font-family: Barlow, sans-serif;
+label {
+   display: block;
+   cursor: pointer;
+}
+
+.navbar-link {
+   text-align: center;
+   width: 100%;
+   display: none;
+}
+
+.navbar-link ul {
+   display: block;
+   margin-left: 50px;
+}
+
+#toggle:checked + .navbar-link {
+   display: block;
 }
