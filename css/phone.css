@@ -4,19 +4,24 @@
 
 nav {
    position: relative;
-   width: 700px;
+   width: 400px;
    background-color: white;
-   margin-top: 50px;
+   margin-top: 40px;
+}
+
+nav > ul {
+   margin-left: -53px;
 }
 
 nav > ul > li {
-   padding: 0 13px;
+   padding: 0 18px;
    display: inline-block;
    font-size: 15px;
 }
 
 nav > ul > li:last-of-type {
    border-left: 1px solid #a6aaa8;
+   margin-left: 2px;
 }
 
 .logo {
@@ -118,7 +123,7 @@ h1 {
    position: relative;
    width: 372px;
    height: 247px;
-   padding: 4px 0;
+   padding: 6px 0;
    margin: auto;
 }
 
