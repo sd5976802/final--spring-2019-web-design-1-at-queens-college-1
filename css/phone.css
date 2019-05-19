@@ -1,0 +1,150 @@
+nav {
+   position: absolute;
+   /* width: 100%; */
+   width: 100%;
+   height: 150px;
+   line-height: 50px;
+}
+
+label {
+   display: inline-block;
+   cursor: pointer;
+}
+
+#toggle:checked ~ .menu {
+   display: block;
+   max-height: 240px;
+   /* background-color: transparent; */
+   background-color: #56b5bf;
+}
+
+.nav-title {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 0;
+   padding: 0;
+}
+
+#title-center {
+   position: relative;
+   top: -40px;
+   left: 0;
+}
+
+a:nth-of-type(1) {
+   color: #ffea23;
+}
+
+ul {
+   width: 100%;
+   margin: 0 auto;
+   padding: 0;
+}
+
+ul li a:link {
+   color: #fff;
+}
+
+ul li a:visited {
+   color: #fff;
+}
+
+ul li a:hover {
+   background-color: #366fcc;
+}
+
+.menu {
+   position: relative;
+   top: 0;
+   left: 0;
+   margin: 10px 0;
+   display: none;
+   width: 100%;
+}
+
+.menu a {
+   display: block;
+   margin: 0;
+}
+
+/* -header- */
+
+#content {
+   position: relative;
+   /* margin: 0 auto; */
+   top: 180px;
+   left: 0;
+   width: 96%;
+}
+/* -index-main- */
+
+.main-container {
+   display: flex;
+   flex-direction: column;
+   margin: 0;
+}
+
+.main-container img {
+   margin-left: 10px;
+   width: 380px;
+}
+
+.index-p {
+   display: flex;
+   width: 380px;
+   font-size: 1.2rem;
+   justify-content: center;
+}
+
+/* -about- */
+
+.about-container {
+   margin-left: 10px;
+   width: 380px;
+}
+
+.about-container a {
+   color: #000;
+}
+
+/* .about-container p {
+   color: blue;
+} */
+
+/* -illust- */
+
+.char-design-container,
+.poster-design-container,
+.pers-work-container {
+   margin-left: 10px;
+}
+/* .char-design-container h1,
+.poster-design-container h1,
+.pers-work-container h1,
+.char-design-container p,
+.poster-design-container p,
+.pers-work-container p {
+   display: flex;
+} */
+
+.char-design-container img,
+.poster-design-container img,
+.pers-work-container img {
+   display: flex;
+   flex-direction: column;
+   width: 33%;
+}
+
+/* -film- */
+
+.film-container p {
+   display: flex;
+   margin: 10px 10px 20px;
+}
+
+iframe {
+   margin-left: 10px;
+   width: 380px;
+   height: 214px;
+}
