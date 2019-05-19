@@ -363,4 +363,39 @@
    #simble {
       visibility: hidden;
    }
+
+   #gallery-link {
+      font-weight: 500;
+   }
+
+   #work-box {
+      width: 620px;
+      position: absolute;
+      left: 275px;
+      top: 80px;
+   }
+
+   #nav-work {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+   }
+
+   #c-1 {
+      font-weight: 500;
+      font-size: 15px;
+   }
+
+   #images-box {
+      position: absolute;
+      width: 620px;
+      left: 275px;
+      top: 126px;
+      background-color: orange;
+   }
+
+   img {
+      width: 60px;
+      height: 100px;
+   }
 }
