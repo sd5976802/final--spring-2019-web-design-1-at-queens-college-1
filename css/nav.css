@@ -1,0 +1,88 @@
+label {
+   margin: 0 40px 0 0;
+   padding: 20px 28px;
+   font-size: 30px;
+   /* line-height: 70px; */
+   display: none;
+   color: #fff;
+}
+
+#toggle {
+   display: none;
+}
+
+nav {
+   position: fixed;
+   height: 100%;
+   width: 220px;
+   background-color: #56b5bf;
+   /* opacity: .5; */
+}
+
+nav li {
+   text-align: center;
+   list-style-type: none;
+}
+
+.nav-title {
+   font-size: 50px;
+   font-family: 'Fredoka One', cursive;
+}
+
+.nav .nav-title a:link {
+   color: #ffea23;
+}
+
+#title-center {
+   position: relative;
+   bottom: -100px;
+   left: 20%;
+   color: #ffea23;
+}
+
+.menu {
+   position: relative;
+   top: 120px;
+   left: 0;
+   margin: 10px 0;
+   text-align: left;
+   font-size: 25px;
+   font-weight: 300;
+}
+
+/* .left-one {
+   position: relative;
+   top: 100px;
+   left: 25%;
+   margin: 10px;
+   text-align: left;
+   font-size: 25px;
+   font-weight: 300;
+} */
+
+ul li {
+   margin: 10px 0;
+   text-align: center;
+   font-size: 25px;
+   font-weight: 300;
+}
+
+/* .fas.fa-bars {
+   display: none;
+}
+
+.fas.fa-bars {
+   display: inline-block;
+   background-color: blue;
+} */
+
+/* .toggle {
+   width: 100%;
+   padding: 10px 20px;
+   background: #001f44;
+   text-align: left;
+   box-sizing: border-box;
+   color: #fff;
+   font-size: 20px;
+   display: none;
+} */
