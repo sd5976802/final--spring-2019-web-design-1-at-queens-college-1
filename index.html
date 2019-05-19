@@ -6,16 +6,12 @@
    <title>Albert Huang's Portfolio</title>
 	<link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/lightbox.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 	<script src="js/jquery.scrollify.js"></script>
-	<script>
-        $(function() {
-          $.scrollify({
-            section : ".section",
-          });
-        });
-     </script>
+	<script src="js/lightbox.js"></script>
+	<script src="js/main.js"></script>
 </head>
 <body>
 	<div class="section">
@@ -48,8 +44,8 @@
 		</nav>
 		
 		<div class="socialMedia">
-			<a href="https://twitter.com/alerhan1" target="_blank"><img src="img/twitterIcon.png" alt="twitter icon"></a>
-			<a href="https://www.linkedin.com/in/albert-huang-b6898472/" target="_blank"><img src="img/linkedlnIcon.png" alt="linkedln icon"></a>	
+			<a href="https://twitter.com/alerhan1" target="_blank"><div class="twitterIcon"></div></a>
+			<a href="https://www.linkedin.com/in/albert-huang-b6898472/" target="_blank"><div class="linkedlnIcon"></div></a>	
 		</div>
 		
 		<div class="pageNumber">
@@ -77,7 +73,7 @@
 	<div class="section">
 		<div class="portfolioContent">
 			<div class="thumbContainer">
-				<img src="img/xwingThumb.png" alt="X-wing piece">
+				<a href="img/xwingFullImg.jpg" data-lightbox="XWing-Img" data-title="A project I did using cinema 4D to render and compose the image together."><img src="img/xwingThumb.png" alt="X-wing piece"></a>
 				<div id="xWingThumbDescription">
 					<h1>X-WING FIGHTER</h1>
 					<hr>
@@ -89,61 +85,59 @@ AND COMPOSE THE IMAGE TOGETHER.
 			</div>	
 			
 			<div class="thumbContainer">
-				<img src="img/spaceThumb.png" alt="X-wing piece">
+				<a href="img/spaceFullImg.jpg" data-lightbox="Space-img" data-title="This is a picture where I used photoshop to render a space scene from scratch."><img src="img/spaceThumb.png" alt="Space Image"></a>
 				<div id="spaceThumbDescription">
-					<h1>X-WING FIGHTER</h1>
+					<h1>SPACE</h1>
 					<hr>
 					<p>
-						A PROJECT I DID USING  CINEMA 4D TO RENDER 
-AND COMPOSE THE IMAGE TOGETHER.
+						THIS IS A PICTURE WHERE I USED PHOTOSHOP
+TO RENDER A SPACE SCENE FROM SCRATCH.
 					</p>
 				</div>
 			</div>	
 			
 			<div class="thumbContainer">
-				<img src="img/barneyThumb.png" alt="X-wing piece">
+				<a href="img/barneyFullImg.jpg" data-lightbox="Barney-img" data-title="A 3D model of my childhood hero Barney the Dinosaur."><img src="img/barneyThumb.png" alt="Barney Image"></a>
 				<div id="barneyThumbDescription">
-					<h1>X-WING FIGHTER</h1>
+					<h1>BARNEY THE DINOSAUR</h1>
 					<hr>
 					<p>
-						A PROJECT I DID USING  CINEMA 4D TO RENDER 
-AND COMPOSE THE IMAGE TOGETHER.
+						A 3D MODEL OF MY CHILDHOOD HERO BARNEY THE 
+DINOSAUR.
 					</p>
 				</div>
 			</div>	
 			
 			<div class="thumbContainer">
-				<img src="img/cubeThumb.png" alt="X-wing piece">
+				<a href="img/squareFullImg.jpg" data-lightbox="Cube-Abstract-Img" data-title="This is a cool abstract design I did for a T-shirt."><img src="img/cubeThumb.png" alt="Cube Image"></a>
 				<div id="cubeThumbDescription">
-					<h1>X-WING FIGHTER</h1>
+					<h1>ABSTRACT RENDER</h1>
 					<hr>
 					<p>
-						A PROJECT I DID USING  CINEMA 4D TO RENDER 
-			AND COMPOSE THE IMAGE TOGETHER.
+						THIS IS A COOL ABSTRACT DESIGN I DID FOR A T SHIRT.
 					</p>
 				</div>
 			</div>
 			
 			<div class="thumbContainer">
-				<img src="img/lamboThumb.png" alt="X-wing piece">
+				<a href="img/lamboFullImg.jpg" data-lightbox="Lambo-Img" data-title="I was inspired by Gran Turismo to render a 3D model of a Lamborghini."><img src="img/lamboThumb.png" alt="Lambo Image"></a>
 				<div id="lamboThumbDescription">
-					<h1>X-WING FIGHTER</h1>
+					<h1>LAMBORGHINI 3D MODEL</h1>
 					<hr>
 					<p>
-						A PROJECT I DID USING  CINEMA 4D TO RENDER 
-			AND COMPOSE THE IMAGE TOGETHER.
+						I WAS INSPIRED BY GRAN TURISMO TO RENDER
+A 3D MODEL OF A LAMBORGHINI
 					</p>
 				</div>
 			</div>
 			
 			<div class="thumbContainer">
-				<img src="img/parrotThumb.png" alt="X-wing piece">
+				<a href="img/parrotFullImg.jpg" data-lightbox="Macaw-Img" data-title="A poster I did in class for the endangered macaw."><img src="img/parrotThumb.png" alt="Parrot Image"></a>
 				<div id="parrotThumbDescription">
-					<h1>X-WING FIGHTER</h1>
+					<h1>MACAW POSTER</h1>
 					<hr>
 					<p>
-						A PROJECT I DID USING  CINEMA 4D TO RENDER 
-			AND COMPOSE THE IMAGE TOGETHER.
+						A POSTER I DID IN CLASS FOR THE ENDANGERED MACAW
 					</p>
 				</div>
 			</div>
@@ -151,7 +145,44 @@ AND COMPOSE THE IMAGE TOGETHER.
 		</div>
 	</div>
 	<div class="section">
-		<p>test text</p>
+		<div class="aboutMeContainer">
+			<div class="aboutMeSection">
+				<img src="img/selfImg.png" alt="Self Portrait">
+					<div class="biography">
+						<h1>ABOUT ME</h1>
+						<hr>
+						<p>My name is Albert Huang.  I am currently a student at Queens College.  I hope to join the graphic design field in the future.</p>
+						<p>But enough with the boring stuff.  I guess you want to know me
+						a bit better.  I’m not great at talking about myself but I guess I 
+						can give it a shot.</p>
+					</div>
+			</div>
+
+			<div class="languageSection">
+				<h1>LANGUAGES</h1>
+				<hr>
+				<p>Specfically I’m trying to get into web design in the future 
+	and have experience in the following languages.</p>
+				<div class="languageLogoContainer">
+					<img src="img/phpLogo.png" alt="PHP Logo">
+					<img src="img/mysqlLogo.png" alt="MYSQL Logo">
+					<img src="img/xhtmlLogo.png" alt="XHTML Logo">
+					<img src="img/cssLogo.png" alt="CSS Logo">
+				</div>
+			</div>
+
+			<div class="awardsSection">
+				<h1>AWARDS</h1>
+				<hr>
+				<em>One Day!</em>
+			</div>
+
+			<div class="hobbiesSection">
+				<h1>HOBBIES</h1>
+				<hr>
+				<img src="img/bikeAndRacquet.png" alt="Hobbies image">
+			</div>
+		</div>
 	</div>
 	<div class="section">
 		<div class="contactMeForm">
