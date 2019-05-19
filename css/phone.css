@@ -6,7 +6,7 @@ nav {
    position: relative;
    width: 400px;
    background-color: white;
-   margin-top: 40px;
+   margin-top: 38px;
 }
 
 nav > ul {
@@ -28,12 +28,11 @@ nav > ul > li:last-of-type {
    margin: auto;
    margin-top: 52px;
    margin-left: 38px;
-   width: 250px;
-   height: 14px;
+   width: 260px;
+   height: 15px;
 }
 
 main {
-   margin-top: 80px;
    position: relative;
 }
 
@@ -47,16 +46,16 @@ h1 {
 /* Photography */
 
 .hint-of-color {
-   margin-top: 80px;
+   margin-top: 48px;
 }
 
 .barber-shop {
-   margin-top: 80px;
+   margin-top: 52px;
 }
 
 .lauren {
-   margin-top: 80px;
-   margin-bottom: 85px;
+   margin-top: 52px;
+   margin-bottom: 73px;
 }
 
 .big-photo {
