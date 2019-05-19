@@ -42,6 +42,11 @@
    padding-right: 15px;
 }
 
+.fab.fa-instagram.fa-3x,
+.fab.fa-github.fa-3x {
+   color: #000;
+}
+
 /* -illust- */
 #content .char-design-container,
 #content .poster-design-container,
