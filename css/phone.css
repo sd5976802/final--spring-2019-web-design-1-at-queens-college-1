@@ -3,18 +3,28 @@
 }
 
 nav {
-   background-color: white;
-   margin-left: 18px;
-   margin-top: 50px;
+   position: relative;
    width: 700px;
+   background-color: white;
+   margin-top: 50px;
+}
+
+nav > ul > li {
+   padding: 0 13px;
+   display: inline-block;
+   font-size: 15px;
+}
+
+nav > ul > li:last-of-type {
+   border-left: 1px solid #a6aaa8;
 }
 
 .logo {
    margin: auto;
    margin-top: 52px;
-   margin-left: 222px;
-   width: 324px;
-   height: 18px;
+   margin-left: 38px;
+   width: 250px;
+   height: 14px;
 }
 
 main {
@@ -22,18 +32,8 @@ main {
    position: relative;
 }
 
-nav > ul > li {
-   padding: 0 34px;
-   display: inline-block;
-   font-size: 21px;
-}
-
-nav > ul > li:last-of-type {
-   border-left: 1px solid #a6aaa8;
-}
-
 h1 {
-   font-size: 30px;
+   font-size: 22px;
    font-weight: 700;
    text-align: center;
    margin: 13px;
