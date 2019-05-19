@@ -73,6 +73,53 @@ nav > ul > li > a:visited {
    color: white;
 }
 
+.home {
+   position: fixed;
+   /* background-size: cover; */
+   top: 0;
+   left: 0;
+}
+
+.homenav {
+   position: fixed;
+   top: 45%;
+   left: 0;
+   width: 100vw;
+   height: 50px;
+   /* border-bottom: 10px solid #3b3b3c; */
+   background-color: #3b3b3c;
+   font-family: Lato, sans-serif;
+   color: white;
+   transition: 2s;
+}
+
+.home > ul {
+   display: flex;
+   /* justify-content: space-around; */
+   justify-content: space-between;
+   width: 1260px;
+   margin: auto;
+}
+
+.home > ul > li {
+   width: 30%;
+   margin: auto;
+   text-align: center;
+   display: inline-block;
+}
+
+/* nav > ul > li:last-of-type {
+   border-right: 1px solid white;
+} */
+
+.home > ul > li > a {
+   display: block;
+   /* width: 100%; */
+   /* margin: auto; */
+   padding: 20px 0;
+   transition: 375ms;
+}
+
 .ceshi {
    position: fixed;
    bottom: 0;
