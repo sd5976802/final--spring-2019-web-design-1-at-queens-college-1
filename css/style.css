@@ -139,3 +139,46 @@ nav > ul > li > a:visited {
    padding: 35px 0;
    line-height: 1.5;
 }
+
+form {
+   font-family: Lato, sans-serif;
+   margin-top: 12%;
+   margin-left: 30%;
+   width: 600px;
+}
+
+form div + div {
+   margin-top: 40px;
+}
+
+label {
+   font-size: 1.1rem;
+   display: inline-block;
+   width: 90px;
+   height: 30px;
+   text-align: right;
+   margin-right: 10px;
+}
+
+input {
+   font-family: Lato, sans-serif;
+   width: 350px;
+   height: 30px;
+}
+
+textarea {
+   font: 1em Lato, sans-serif;
+   width: 350px;
+   vertical-align: top;
+   height: 5em;
+}
+
+.button {
+   display: flex;
+   justify-content: center;
+   /* padding-left: 90px; */
+}
+
+/* button {
+
+} */
