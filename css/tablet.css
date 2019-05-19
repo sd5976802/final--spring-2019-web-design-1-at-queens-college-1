@@ -223,6 +223,7 @@ p:nth-of-type(4) {
    text-decoration: underline;
    margin-left: 612px;
    top: 740px;
+   width: 200px;
 }
 
 p > a {
