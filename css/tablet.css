@@ -2,6 +2,10 @@
    width: 768px;
 }
 
+h1 {
+   width: 768px;
+}
+
 nav {
    background-color: white;
    margin-left: 18px;
