@@ -2,7 +2,7 @@
 /* CSS Document */
 
 body{
-	background-color: #000000;
+	background-color: #191919;
 	font-family: 'Open Sans', sans-serif;
 	color: white;
 	font-size: 14px;
@@ -124,9 +124,10 @@ h1{
 }
 
 .pageNumber{
+	font-weight: 500;
 	position: fixed;
 	top: 90%;
-	left: 90%;
+	left: 47%;	
 }
 
 .pageNumber img:first-of-type{
@@ -142,34 +143,47 @@ h1{
 }
 
 .mainContent em {
-	font-size: 60px;
+	font-size: 8vw;
 	font-weight: 900;
 	color: #a01625
 }
 
 .mainContent p {
-	color: #666666;
-	font-weight: 400;
+	font-size: 1.5vw;
+	color: #aeaeae;
+	font-weight: 500;
 	line-height: 1.4; 
 }
 
 #scrollText {
 	margin-top: 100px;
 	text-align: center;
-	font-size: 11px;
 	font-weight: 100;
 }
 
 #scrollText p {
 	color: white;
+	font-size: 11px;
 }
 
 #scrollText img {
 	margin-top: 10px;
 }
 
+.portfolioContent {
+	width: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
 .thumbContainer {
-	width: 218px;
+	width: 33%;
+}
+
+.thumbContainer img {
+	width: 100%;
 }
 
 #xWingThumbDescription {
@@ -216,13 +230,6 @@ hr {
 	display:block;
 	margin: 3px 0 3px 5px;
 	padding: 0;
-}
-
-.portfolioContent {
-	width: 660px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
 }
 
 .contactMeForm{

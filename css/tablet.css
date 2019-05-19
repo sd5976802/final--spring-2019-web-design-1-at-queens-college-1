@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #2f4963;
+}
+
+.portfolioContent{
+	width: 440px;
+	margin-left: 25%;
+}
+
+.thumbContainer img {
+	width: 173px;
+}
+
+.thumbContainer {
+	width: 173px;
+}
+
+.thumbContainer h1{
+	font-size: 10px;
+}
+
+.thumbContainer p{
+	font-size: 8px;
+}
+
+.logo img {
+	width: 75px;
+}
+
+nav{
+	position: fixed;
+	top: 230px;
+	left: 15px;
+}
+
+#homepageMenuLine{
+	width:20px;
+	border-bottom: 3px solid white;
+}
+
+#homepageMenuName{
+	font-size: 10px;
+	position: fixed;
+	left: 38px;
+	top: 238px;
+}
+
+#portfolioMenuName{
+	font-size: 10px;
+	position: fixed;
+	left: 38px;
+	top: 255px;
+	visibility: hidden; 
+}
+
+#portfolioMenuLine {
+	width: 20px;
+}
+
+#aboutMeMenuName{
+	font-size: 10px;
+	position: fixed;
+	left: 38px;
+	top: 271px;
+	visibility: hidden;
+}
+
+#aboutMeMenuLine {
+	width: 20px;
+}
+
+#contactMemenuName{
+	font-size: 10px;
+	position: fixed;
+	left: 38px;
+	top: 288px;
+	visibility: hidden;
+}
+
+#contactMemenuLine {
+	width: 20px;
+}

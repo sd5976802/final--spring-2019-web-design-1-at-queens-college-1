@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: aquamarine;
+}
+
+.portfolioContent{
+	width: 286px;
+}
+
+.thumbContainer img {
+	width: 143px;
+}
+
+.thumbContainer {
+	width: 143px;
+}
+
+.thumbContainer h1{
+	font-size: 8px;
+}
+
+.thumbContainer p{
+	font-size: 7px;
+}
+
+.logo img {
+	width: 55px;
+}
+
+.pageNumber{
+	position: fixed;
+	top: 95%;
+	left: 40%;	
+}
+
+.pageNumber img {
+	width: 9px;
+}
+
+#pageNumberText{
+	font-size: 10px;
+}
+
+nav{
+	position: fixed;
+	top: 10px;
+	left: 195px;
+}
+
+#homepageMenuLine{
+	width:15px;
+	border-bottom: 3px solid white;
+}
+
+#homepageMenuName{
+	font-size: 10px;
+	position: fixed;
+	left: 214px;
+	top: 18px;
+}
+
+#portfolioMenuName{
+	font-size: 10px;
+	position: fixed;
+	left: 214px;
+	top: 36px;
+	visibility: hidden; 
+}
+
+#portfolioMenuLine {
+	width: 15px;
+}
+
+#aboutMeMenuName{
+	font-size: 10px;
+	position: fixed;
+	left: 214px;
+	top: 52px;
+	visibility: hidden;
+}
+
+#aboutMeMenuLine {
+	width: 15px;
+}
+
+#contactMemenuName{
+	font-size: 10px;
+	position: fixed;
+	left: 214px;
+	top: 68px;
+	visibility: hidden;
+}
+
+#contactMemenuLine {
+	width: 15px;
+}
