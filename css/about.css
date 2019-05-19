@@ -57,10 +57,10 @@
       font-size: 1rem;
    }
    img {
-      width: 130px
+      width: 70px
    }
    #logo {
-      width: 110px
+      width: 90px
    }
    #ho,
    #ab,
@@ -68,7 +68,15 @@
    #con {
       font-size: 1rem
    }
-
+}
+#nick {
+   width: 70px;
+}
+#bio {
+   padding-left: 2rem;
+   text-align: justify;
+   line-height: normal;
+   font-size: .5rem
 }
 
 @media (min-width: 401px) and (max-width: 768px) {
@@ -136,7 +144,15 @@
    #con {
       font-size: 1.5rem
    }
-
+}
+#nick {
+   width: 300px;
+}
+#bio {
+   padding-left: 2rem;
+   text-align: justify;
+   line-height: normal;
+   font-size: 1.5rem
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -202,6 +218,15 @@
       font-size: 1.5rem
    }
 }
+#nick {
+   width: 300px;
+}
+#bio {
+   padding-left: 2rem;
+   text-align: justify;
+   line-height: normal;
+   font-size: 1.5rem
+}
 @media (min-width: 1025px) {
    body {
       background-color: #ffffff;
@@ -264,4 +289,13 @@
    #con {
       font-size: 1.5rem
    }
+}
+#nick {
+   width: 300px;
+}
+#bio {
+   padding-left: 2rem;
+   text-align: justify;
+   line-height: normal;
+   font-size: 1.5rem
 }
