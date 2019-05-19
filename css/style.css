@@ -1,7 +1,7 @@
 body {
    margin: auto;
    width: 1366px;
-   background-color: black;
+   background-color: white;
 }
 
 /* nav {
@@ -71,6 +71,12 @@ nav > ul > li > a:hover {
 
 nav > ul > li > a:visited {
    color: white;
+}
+
+.ceshi {
+   position: fixed;
+   bottom: 0;
+   right: 1.5%;
 }
 
 .container {
