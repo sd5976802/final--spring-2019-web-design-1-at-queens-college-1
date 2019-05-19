@@ -114,7 +114,7 @@ h1 {
 
 .design-catalogue {
    margin: auto;
-   margin-top: 80px;
+   margin-top: 48px;
    width: 372px;
 }
 
@@ -127,7 +127,7 @@ h1 {
 }
 
 .main-poster-title {
-   margin-top: 58px;
+   margin-top: 44px;
 }
 
 .poster-location > div > img {
@@ -136,7 +136,7 @@ h1 {
 }
 
 .poster-location > div:last-of-type > img {
-   margin-top: 146px;
+   margin-top: 90px;
 }
 
 .poster-location {
@@ -151,20 +151,20 @@ h1 {
 .poster-title > h1:nth-of-type(2) {
    position: absolute;
    margin-left: 145px;
-   margin-top: 655px;
+   margin-top: 608px;
 }
 
 .design-video {
    display: block;
    margin: auto;
    width: 300px;
-   margin-top: 80px;
+   margin-top: 47px;
 }
 
 .design-video > video {
    width: 300px;
    height: 636px;
-   margin-bottom: 73px;
+   margin-bottom: 58px;
 }
 
 /* About */
