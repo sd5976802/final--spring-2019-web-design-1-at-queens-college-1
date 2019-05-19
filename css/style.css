@@ -60,7 +60,7 @@ padding-right: 1vmax;
    word-spacing: 40px;
    text-align: right;
    position: relative;
-   font-size: 3vmax;
+   font-size: 3.2vmax;
    padding-right: 1vmax;
 }
 .workgroupvideo{
@@ -131,7 +131,7 @@ ul li{
    color: #FF3C00;
 
 }
-@media  only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
    ul li{
       list-style: none;
       display: list-item;
