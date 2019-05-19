@@ -3,17 +3,13 @@ src: url(../fonts/dpcomic.ttf);
 font-family: dp;
 }
 *{
-font-family: dp;
+font-family: dp, arial, sans-serif;
 text-decoration: none;
 scroll-behavior: smooth;
 margin: 0;
 padding: 0;
 }
-/* body{
-   padding-left: 1vmax;
-   padding-right: 1vmax; */
-}
-.aboutme,{
+.aboutme{
    padding-top: 10vh;
 }
 h3{
@@ -33,9 +29,6 @@ h1{
    font-size: 14vmin;
    padding-top:1vh;
 }
-.ctgry{
-   font-size: 3vw;
-}
 .sub {
    font-size: 4vh;
 }
@@ -51,12 +44,14 @@ padding-right: 1vmax;
    background-position: center;
    padding-top: 5vh;
    height: 100vh;
+   background-color: inherit;
    color: #4522A3;
 }
 .bdyd{
    background-image: url(../img/bg2.png);
    background-size: cover;
    background-position: center;
+   background-color: inherit;
    text-align: center;
    height: 100vh;
    color: #D6FFD1;
@@ -118,6 +113,8 @@ ul li{
    background-position: center;
    height: 100vh;
    text-align: center;
+   background-color: inherit;
+   color:#00FF0A;
 }
 .contactclass h3{
    padding-top: 20vh;
@@ -130,6 +127,7 @@ ul li{
    padding-top: 1vmax;
 }
 .thetoplink{
+   background-color: inherit;
    color: #FF3C00;
 
 }
