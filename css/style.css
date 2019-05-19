@@ -17,7 +17,7 @@ h3{
 }
 .bdy{
    font-size: 3vmax;
-   width: 80%;
+   width: 75%;
    margin: auto;
 }
 h2{
@@ -36,7 +36,6 @@ h1{
 h1, .sub{
 line-height: 70px;
 padding-left: 1vmax;
-padding-right: 1vmax;
 }
 .top{
    background-image: url(../img/bg1.png);
@@ -89,15 +88,6 @@ padding-right: 1vmax;
    width: 90%;
    margin: auto;
 }
-.imgw {
-   padding-left:1vmin;
-   padding-right:1vmin;
-   padding-top: 1vmin;
-   padding-bottom: 1vmin;
-}
-.imgwd {
-   width: 100vw;
-}
 img{
    max-width:100%;
    height: auto;
@@ -111,7 +101,7 @@ ul li{
    background-image: url(../img/cleanbrush.jpg);
    background-size: cover;
    background-position: center;
-   height: 100vh;
+   height: 101vh;
    text-align: center;
    background-color: inherit;
    color:#00FF0A;
