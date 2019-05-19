@@ -91,14 +91,6 @@
       right: 10px;
    }
 
-   img {
-      width: 210px;
-      height: 200px;
-      position: absolute;
-      top: 200px;
-      left: 100px;
-   }
-
    #cause-l {
       font-size: 2rem;
    }
@@ -234,14 +226,6 @@
       position: absolute;
       top: 0;
       right: 24px;
-   }
-
-   img {
-      width: 510px;
-      height: 500px;
-      position: absolute;
-      top: 50px;
-      left: 120px;
    }
 
    #cause-l {
