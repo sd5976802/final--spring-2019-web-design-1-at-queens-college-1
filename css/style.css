@@ -1,0 +1,144 @@
+@font-face {
+src: url(../fonts/dpcomic.ttf);
+font-family: dp;
+}
+*{
+font-family: dp;
+text-decoration: none;
+scroll-behavior: smooth;
+margin: 0;
+padding: 0;
+}
+/* body{
+   padding-left: 1vmax;
+   padding-right: 1vmax; */
+}
+.aboutme,{
+   padding-top: 10vh;
+}
+h3{
+   font-size: 13vw;
+}
+.bdy{
+   font-size: 3vmax;
+   width: 80%;
+   margin: auto;
+}
+h2{
+   font-size: 20vw;
+   padding-top: 20vmin;
+   text-align: center;
+}
+h1{
+   font-size: 14vmin;
+   padding-top:1vh;
+}
+.ctgry{
+   font-size: 3vw;
+}
+.sub {
+   font-size: 4vh;
+}
+
+h1, .sub{
+line-height: 70px;
+padding-left: 1vmax;
+padding-right: 1vmax;
+}
+.top{
+   background-image: url(../img/bg1.png);
+   background-size: cover;
+   background-position: center;
+   padding-top: 5vh;
+   height: 100vh;
+   color: #4522A3;
+}
+.bdyd{
+   background-image: url(../img/bg2.png);
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+   height: 100vh;
+   color: #D6FFD1;
+}
+.ctgry{
+   word-spacing: 40px;
+   text-align: right;
+   position: relative;
+   font-size: 3vmax;
+   padding-right: 1vmax;
+}
+.workgroupvideo{
+   position: relative;
+   padding-bottom: 56.25%;
+}
+.bdyd h3{
+   padding-top: 3vh;
+}
+.workgroup{
+   text-align: center;
+   background-color: #FFCD54;
+   color:#FAF8D5;
+}
+.workgroupvideo iframe{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   bottom: 0px;
+   right: 0px;
+   height: 99.5%;
+   width: 99.5%;
+}
+.projectnote{
+   font-size: 6vmax;
+   width: 90%;
+   margin: auto;
+}
+.imgw {
+   padding-left:1vmin;
+   padding-right:1vmin;
+   padding-top: 1vmin;
+   padding-bottom: 1vmin;
+}
+.imgwd {
+   width: 100vw;
+}
+img{
+   max-width:100%;
+   height: auto;
+   width: auto;
+}
+ul li{
+   list-style: none;
+   display: inline-block;
+}
+.contactclass{
+   background-image: url(../img/cleanbrush.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 100vh;
+   text-align: center;
+}
+.contactclass h3{
+   padding-top: 20vh;
+}
+.contactclass p{
+   font-size: 4vmax;
+}
+.thetop {
+   font-size: 3vmax;
+   padding-top: 1vmax;
+}
+.thetoplink{
+   color: #FF3C00;
+
+}
+@media  only screen and (max-width: 320px) {
+   ul li{
+      list-style: none;
+      display: list-item;
+      text-align: left;
+      font-size: 5vmax;
+      padding-left: 2vmin;
+   }
+}
