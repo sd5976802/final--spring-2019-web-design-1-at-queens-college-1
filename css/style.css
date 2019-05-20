@@ -21,8 +21,7 @@ nav {
 nav > ul {
    display: flex;
    /* justify-content: space-around; */
-   justify-content: space-between;
-   width: 1260px;
+   justify-content: center;
    margin: auto;
 }
 
@@ -181,60 +180,41 @@ img:hover {
    body {
       width: auto;
    }
+
+   div > img {
+      width: 400px;
+   }
 }
 
 @media (min-width: 401px) and (max-width: 768px) {
    body {
-      width: 400px;
+      width: auto;
    }
 
    div > img {
-      width: 200px;
-   }
-
-   nav {
-      width: auto;
+      width: 700px;
    }
 
    .container {
       display: flex;
       flex-direction: column;
+   }
+
+   .Thankyou {
+      margin-top: 10%;
+      margin-bottom: 5%;
+      font-family: Lato, sans-serif;
+      font-size: 1rem;
+      line-height: 2;
    }
 }
 
 @media (min-width: 769px) and (max-width: 1366px) {
    body {
-      width: 768px;
+      width: auto;
    }
 
    div > img {
-      width: 710px;
-   }
-
-   nav {
       width: auto;
    }
-
-   .container {
-      display: flex;
-      flex-direction: column;
-   }
-
-/* @media (min-width: 1367px) {
-   body {
-      width: 1366px;
-   }
-
-   img {
-      width: 355px;
-   }
-
-   nav {
-      width: auto;
-   }
-
-   .container {
-      display: flex;
-      flex-direction: column;
-   } */
 }
