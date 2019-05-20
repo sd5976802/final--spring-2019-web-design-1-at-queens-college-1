@@ -193,11 +193,12 @@ img:hover {
 
 @media (min-width: 401px) and (max-width: 768px) {
    body {
-      width: auto;
+      width: 768px;
    }
 
    div > img {
       width: 700px;
+      align-content: center;
    }
 
    .container {
