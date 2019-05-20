@@ -3,6 +3,10 @@ body {
    margin: auto;
 }
 
+.about {
+   width: 1280px;
+}
+
 nav {
    background-color: white;
    margin-left: 651px;

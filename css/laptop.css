@@ -2,6 +2,11 @@
    width: 1024px;
 }
 
+body {
+   width: 1024px;
+   margin: auto;
+}
+
 nav {
    background-color: white;
    margin-left: 455px;

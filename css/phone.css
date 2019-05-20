@@ -2,6 +2,11 @@
    width: 400px;
 }
 
+body {
+   width: 400px;
+   margin: auto;
+}
+
 nav {
    position: relative;
    width: 398px;
