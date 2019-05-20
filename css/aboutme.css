@@ -3,33 +3,37 @@ body {
   margin: 20px;
   background: #B8B696;
 }
-header {
+.aboutme {
   font-family: 'Fjalla One', sans-serif;
-}
-h1 {
   display: block;
   text-align: center;
   font-size: 100px;
-  margin-top: 2%;
+  margin-top: 4%;
+  color: rgb(112, 112, 112);
+  margin-bottom: 4%;
+}
+.profile {
+  margin-left: 250px;
+}
+p {
+  font-family: 'Fjalla One', sans-serif;
+  display: block;
+  font-size: 30px;
+  margin-left: 14%;
+  margin-right: 14%;
+  margin-top: 5%;
+  line-height: normal;
+  text-indent: 5%;
   color: rgb(112, 112, 112);
 }
-div img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: -2.5px;
-  position: absolute;
-  left: 30%;
-  top:360px;
-}
 nav {
+  font-family: 'Fjalla One', sans-serif;
   list-style: none;
   margin: 0;
   padding: 0;
   text-align: center;
   font-size: 45px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 10px;
   color: rgb(112, 112, 112);
 }
 nav li {
@@ -42,7 +46,7 @@ nav ul li {
   width: 33%;
   left: 50px;
   float: left;
-  margin-top: 4%
+  margin-bottom: 4%;
 }
 nav ul li a {
   display:block;
