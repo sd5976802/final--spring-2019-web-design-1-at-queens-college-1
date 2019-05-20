@@ -1,24 +1,24 @@
-.about {
-   width: 1024px;
+body {
+   width: 768px;
+   margin: auto;
 }
 
-body {
-   width: 1024px;
-   margin: auto;
+h1 {
+   width: 768px;
 }
 
 nav {
    background-color: white;
-   margin-left: 463px;
+   margin-left: 18px;
    margin-top: 50px;
-   width: 550px;
+   width: 678px;
 }
 
 .logo {
-   margin-top: 3px;
-   margin-left: 30px;
-   position: absolute;
-   width: 307px;
+   margin: auto;
+   margin-top: 52px;
+   margin-left: 222px;
+   width: 324px;
    height: 18px;
 }
 
@@ -28,7 +28,7 @@ main {
 }
 
 nav > ul > li {
-   padding: 0 18px;
+   padding: 0 34px;
    display: inline-block;
    font-size: 21px;
 }
@@ -48,41 +48,38 @@ h1 {
 
 .hint-of-color {
    margin-top: 80px;
-   width: 1024px;
 }
 
 .barber-shop {
    margin-top: 80px;
-   width: 1024px;
 }
 
 .lauren {
    margin-top: 80px;
    margin-bottom: 85px;
-   width: 1024px;
 }
 
 .big-photo {
    margin: auto;
-   width: 964px;
+   width: 736px;
 }
 
 .small-photo {
    margin: auto;
    display: flex;
-   width: 964px;
+   width: 736px;
    justify-content: space-between;
    padding-top: 15px;
 }
 
 .small-photo > img {
-   width: 308px;
-   height: 205px;
+   width: 232px;
+   height: 154px;
 }
 
 .big-photo > img {
-   width: 964px;
-   height: 642px;
+   width: 736px;
+   height: 490px;
 }
 
 /* Animation */
@@ -90,20 +87,20 @@ h1 {
 .animation-video {
    display: block;
    margin: auto;
-   width: 964px;
+   width: 736px;
    margin-top: 80px;
 }
 
 .alien > video {
    border: 0;
-   width: 964px;
-   height: 542px;
+   width: 736px;
+   height: 414px;
 }
 
 .megaphone > video {
    border: 0;
-   width: 964px;
-   height: 542px;
+   width: 736px;
+   height: 414px;
 }
 
 .megaphone {
@@ -112,15 +109,20 @@ h1 {
 }
 
 /* Design */
+.design-catalogue > h1 {
+   margin-bottom: 8px;
+}
+
 .design-catalogue {
    margin: auto;
    margin-top: 80px;
-   width: 964px;
+   width: 736px;
 }
 
 .design-catalogue > img {
-   width: 964px;
-   height: 642px;
+   position: relative;
+   width: 736px;
+   height: 490px;
    padding: 9px 0;
    margin: auto;
 }
@@ -129,20 +131,18 @@ h1 {
    margin-top: 58px;
 }
 
+.poster-location > div > img {
+   width: 568px;
+   height: 850px;
+}
+
+.poster-location > div:last-of-type > img {
+   margin-top: 146px;
+}
+
 .poster-location {
    margin: auto;
-   display: flex;
-   width: 964px;
-   justify-content: space-between;
-}
-
-.poster-location > div > img {
-   width: 472px;
-   height: 708px;
-}
-
-.poster-title > h1 {
-   display: inline-block;
+   width: 568px;
 }
 
 .poster-title > h1:nth-of-type(1) {
@@ -150,32 +150,35 @@ h1 {
 }
 
 .poster-title > h1:nth-of-type(2) {
-   margin-left: 396px;
+   position: absolute;
+   margin-left: 330px;
+   margin-top: 950px;
 }
 
 .design-video {
    display: block;
    margin: auto;
-   width: 308px;
+   width: 400px;
    margin-top: 80px;
 }
 
 .design-video > video {
-   width: 308px;
-   height: 652px;
+   width: 400px;
+   height: 848px;
+   margin-bottom: 73px;
 }
 
 /* About */
 .about-image {
    position: relative;
-   width: 308px;
+   width: 272px;
    margin: auto;
    margin-top: 80px;
 }
 
 .about-image > img {
-   width: 308px;
-   height: 308px;
+   width: 272px;
+   height: 272px;
 }
 
 p:nth-of-type(1) {
@@ -195,33 +198,33 @@ p:nth-of-type(2) {
 
 .fab.fa-linkedin-in {
    position: relative;
-   top: 111px;
-   right: 6px;
+   top: 88px;
+   right: 19px;
    font-size: 32px;
 }
 
 .far.fa-envelope {
    position: relative;
-   top: 111px;
-   left: 92px;
+   top: 88px;
+   left: 80px;
    font-size: 32px;
 }
 
 p:nth-of-type(3) {
    position: relative;
-   font-size: 29px;
-   top: 50px;
-   left: 155px;
+   font-size: 22px;
+   top: 42px;
+   left: 145px;
    letter-spacing: 1px;
 }
 
 p:nth-of-type(4) {
    position: relative;
-   font-size: 31px;
+   font-size: 25px;
    text-decoration: underline;
-   margin: auto;
-   margin-left: 830px;
-   bottom: 20px;
+   margin-left: 620px;
+   bottom: 14px;
+   width: 200px;
 }
 
 p > a {
