@@ -9,7 +9,7 @@ h1 {
 
 nav {
    background-color: white;
-   margin-left: 18px;
+   margin-left: 25px;
    margin-top: 50px;
    width: 678px;
 }
@@ -17,7 +17,7 @@ nav {
 .logo {
    margin: auto;
    margin-top: 52px;
-   margin-left: 222px;
+   margin-left: 230px;
    width: 324px;
    height: 18px;
 }
@@ -110,6 +110,8 @@ h1 {
 
 /* Design */
 .design-catalogue > h1 {
+   position: relative;
+   right: 30px;
    margin-bottom: 8px;
 }
 
@@ -151,7 +153,7 @@ h1 {
 
 .poster-title > h1:nth-of-type(2) {
    position: absolute;
-   margin-left: 330px;
+   margin-left: 18px;
    margin-top: 950px;
 }
 
@@ -160,6 +162,11 @@ h1 {
    margin: auto;
    width: 400px;
    margin-top: 80px;
+}
+
+.design-video > h1 {
+   position: relative;
+   right: 197px;
 }
 
 .design-video > video {
