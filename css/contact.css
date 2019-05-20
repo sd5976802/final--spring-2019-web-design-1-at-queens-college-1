@@ -34,7 +34,7 @@
    .content {
      display: flex;
      height: 600px;
-     align-items: center;
+     align-items:flex-start;
      display: flex;
      justify-content: space-around;
      background-color: #B9D6F0;
@@ -178,7 +178,7 @@
    .content {
      display: flex;
      height: 600px;
-     align-items: center;
+     align-items:flex-start;
      display: flex;
      justify-content: space-around;
      background-color: #B9D6F0;
@@ -247,7 +247,7 @@
    .content {
      display: flex;
      height: 600px;
-     align-items: center;
+     align-items:flex-start;
      display: flex;
      justify-content: space-around;
      background-color: #B9D6F0;
