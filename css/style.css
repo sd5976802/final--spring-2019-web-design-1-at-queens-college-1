@@ -1,6 +1,4 @@
 body {
-   /* margin: auto;
-   width: 1366px; */
    background-image: url('../img/home.png');
    background-repeat: repeat-y;
    background-color: black;
@@ -13,14 +11,12 @@ nav {
    left: 0;
    width: 100vw;
    height: 56px;
-   /* border-bottom: 10px solid #3b3b3c; */
    background-color: #262626;
    font-family: Lato, sans-serif;
 }
 
 nav > ul {
    display: flex;
-   /* justify-content: space-around; */
    justify-content: center;
    margin: auto;
 }
@@ -34,8 +30,6 @@ nav > ul > li {
 
 nav > ul > li > a {
    display: block;
-   /* width: 100%; */
-   /* margin: auto; */
    padding: 20px 0;
    transition: 375ms;
 }
