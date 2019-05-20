@@ -99,3 +99,11 @@ nav{
 .awardsSection {
 	height: 90px;
 }
+
+.mainContent em {
+	font-size: 10vw;
+}
+
+.mainContent p {
+	font-size: 2vw;
+}

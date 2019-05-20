@@ -149,3 +149,11 @@ nav{
 .awardsSection em {
 	margin: 0px 0px 0px 125px;
 }
+
+.mainContent em {
+	font-size: 12vw;
+}
+
+.mainContent p {
+	font-size: 3vw;
+}
