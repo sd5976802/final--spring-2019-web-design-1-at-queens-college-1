@@ -1,0 +1,194 @@
+body {
+   background-image: url('../img/beans-background.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+/*navigation*/
+.nav {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: #fff;
+   opacity: .6;
+   overflow-x: hidden;
+   padding-top: 60px;
+   transition: .5s;
+}
+
+.nav a {
+   padding: 8px 8px 8px 32px;
+   text-decoration: none;
+   font-family: 'Belleza', sans-serif;
+   font-size: 30px;
+   color: #000;
+   display: block;
+   transition: .3s;
+}
+
+.nav a:hover {
+   color: #8b2100;
+}
+
+.nav .closebtn {
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 36px;
+   margin-left: 50px;
+}
+
+#main {
+   transition: margin-left .5s;
+   width: 90px;
+   color: white;
+   float: left;
+   position: fixed;
+   margin-left: 12px;
+}
+
+header {
+   margin-right: 400px;
+   margin-left: 450px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   position: fixed;
+   font-family: 'Shrikhand', cursive;
+   font-size: 50px;
+   color: #fff;
+}
+
+.header {
+   float: none;
+   margin-left: 90px;
+}
+
+h2 {
+   font-size: 150px;
+   font-family: 'Shrikhand', sans-serif;
+   color: white;
+   text-align: center;
+   margin-top: 300px;
+   margin-bottom: 12px;
+}
+
+h3 {
+   font-size: 50px;
+   font-family: 'Shrikhand', sans-serif;
+   color: white;
+   margin-left: 50px;
+   margin-bottom: 12px;
+}
+/*contact*/
+input[type='text'],
+textarea {
+   width: 100%;
+   padding: 12px;
+   font-family: 'Belleza', sans-serif;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+}
+
+#subject {
+   height: 200px;
+}
+
+input[type='submit'] {
+   padding: 12px 20px;
+   font-family: 'Belleza', sans-serif;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+}
+
+input[type='submit']:hover {
+   background-color: #f3f3f3;
+}
+
+.container {
+   border-radius: 5px;
+   background-color: #f9f9f9;
+   font-family: 'Belleza', sans-serif;
+   padding: 20px;
+   margin: 30px;
+}
+
+/*portfolio images*/
+
+.oceanp {
+   float: left;
+   margin-left: 30px;
+   margin-bottom: 30px;
+}
+
+.skyp {
+   float: right;
+   margin-right: 30px;
+   margin-bottom: 30px;
+}
+
+.forestp {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 30px;
+   width: 50%;
+}
+
+.beansp {
+   float: left;
+   margin-left: 50px;
+}
+
+.circlep {
+   float: right;
+   margin-right: 50px;
+}
+
+/* about me*/
+.selfimagep {
+   float: right;
+   margin-right: 30px;
+}
+
+h3 {
+   font-family: 'Shrikhand', cursive;
+   font-size: 40px;
+   color: white;
+   margin-top: 20px;
+   margin-left: 50px;
+}
+
+.amp {
+   font-family: 'Belleza', sans-serif;
+   font-size: 40px;
+   line-height: 50px;
+   color: white;
+   margin-left: 50px;
+   margin-top: 30px;
+}
+/*sections*/
+#section1 {
+   height: 1000px;
+   padding-top: 50px;
+}
+
+#section2 {
+   height: 1500px;
+}
+
+#section3 {
+   height: 1000px;
+}
+
+#section4 {
+   height: 1000px;
+}
