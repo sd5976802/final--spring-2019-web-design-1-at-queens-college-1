@@ -9,14 +9,14 @@ body {
 
 nav {
    background-color: white;
-   margin-left: 455px;
+   margin-left: 463px;
    margin-top: 50px;
    width: 550px;
 }
 
 .logo {
    margin-top: 3px;
-   margin-left: 22px;
+   margin-left: 30px;
    position: absolute;
    width: 307px;
    height: 18px;
@@ -194,34 +194,34 @@ p:nth-of-type(2) {
 }
 
 .fab.fa-linkedin-in {
-   position: absolute;
-   top: 765px;
-   left: 30px;
+   position: relative;
+   top: 111px;
+   right: 6px;
    font-size: 32px;
 }
 
 .far.fa-envelope {
-   position: absolute;
-   top: 765px;
+   position: relative;
+   top: 111px;
    left: 92px;
    font-size: 32px;
 }
 
 p:nth-of-type(3) {
-   position: absolute;
+   position: relative;
    font-size: 29px;
-   top: 736px;
+   top: 50px;
    left: 155px;
    letter-spacing: 1px;
 }
 
 p:nth-of-type(4) {
-   position: static;
+   position: relative;
    font-size: 31px;
    text-decoration: underline;
    margin: auto;
-   margin-left: 822px;
-   margin-top: 151px;
+   margin-left: 830px;
+   bottom: 20px;
 }
 
 p > a {
