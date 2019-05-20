@@ -14,30 +14,27 @@ body {
    left: 0;
    width: 100vw;
    background-color: black;
-   box-shadow: 0 2px 8px grey;
+   box-shadow: 0 2px 8px white;
 }
 
 .navbar-link > ul {
    text-align: center;
-   margin-left: -100px;
    list-style-type: none;
 }
 
 .navbar-link > ul > li {
-   width: 200px;
    display: inline-block;
 }
 
 .navbar-link > ul > li > a {
    display: block;
    width: 100%;
-   padding: 20px 0;
    transition: 375ms;
 }
 
 .navbar-link > ul > li > a:link {
    color: white;
-   font-size: 20px;
+
 }
 
 .navbar-link > ul > li > a:hover {
@@ -46,17 +43,17 @@ body {
 }
 
 .navbar-link > ul > li > a:active {
-   background-color: green;
+   background-color: #f6efb4;
 }
 
 .navbar-link > ul > li > a:visited {
-   color: grey;
+   background-color: grey;
 }
 
 label {
    margin: 0 40px 0 0;
    font-size: 40px;
-   line-height: 70px;
+   line-height: 80px;
    display: none;
    width: 26px;
    float: left;
@@ -68,17 +65,17 @@ label {
 
 .current {
    background-color: #d0ccc3;
-   font-size: 20px;
 }
 
 #slider {
    overflow: hidden;
+   width: 1000px;
 }
 
 #slider figure {
    position: relative;
    width: 500%;
-   margin-top: 60px;
+   margin-top: 0;
    margin-left: 0;
    animation: 15s slider infinite;
 }
@@ -124,4 +121,70 @@ label {
    100% {
       left: -400%;
    }
+}
+
+
+
+
+body {
+   margin: 200px auto 0;
+}
+
+h1 {
+   text-align: center;
+   font-size: 40px;
+}
+
+form {
+   width: 50%;
+   margin: 0 auto;
+   background-color: transparent;
+}
+
+input {
+   width: 90%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px;
+   font-size: 20px;
+   border: 1px solid black;
+}
+
+p {
+   padding: 5px;
+}
+
+#submit {
+   font-size: 20px;
+   color: white;
+   width: 50%;
+   background-color: black;
+}
+
+textarea {
+   width: 91%;
+   height: 140px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 20px;
+   border: 2px solid black;
+}
+
+input:focus {
+   background-color: #d5d5d5;
+   transition: all .5s;
+}
+* {
+   box-sizing: border-box;
+}
+
+.gallrey {
+   border: 1px solid black;
+}
+
+.gallery img {
+   width: 30%;
+   height: auto;
 }

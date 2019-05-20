@@ -7,7 +7,7 @@
    <title>JieyunXiaoWebsite</title>
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/phone.css"   media="(max-width: 400px)">
-   <link rel="stylesheet" href="css/tablet.css"  media="(min-width: 401px) and (max-width: 768px)">
+   <link rel="stylesheet" href="css/tablet.css"  media="(min-width: 401px) and (max-width: 1024px)">
    <link rel="stylesheet" href="css/desktop.css" media="(min-width: 1025px)">
    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
 </head>
@@ -18,10 +18,22 @@
       <ul>
          <li><a href="home.html">Home</a></li>
          <li><a href="portfolio.html">Portfolio</a></li>
-         <li><a href="aboutme.html">About Me</a><li>
+         <li><a href="aboutme.html">About</a>
          <li><div class="current"><a href="contact.html">Contact</a></div></li>
         </ul>
        </nav>
+
+<div class="message">
+       <form action=/action method="post">
+        <h1>Contact Me</h1>
+    <p><input type="text" name="first_name" placeholder="First Name:"> </p>
+    <p><input type="text" name="last_name" placeholder="Last Name:">  </p>
+    <p><input type="email" name="email" placeholder="Email:">  </p>
+    <p><input type="text" name="phone" placeholder="phone:">  </p>
+    <textarea></textarea>
+    <p><input id="submit" type="submit" value="Send"> </p>
+        </form>
+        </div>
 
 </body>
 </html>
