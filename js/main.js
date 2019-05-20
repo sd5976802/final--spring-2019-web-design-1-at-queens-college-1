@@ -33,6 +33,15 @@ $(function() {
 			$("#aboutMeMenuLine").css("border-bottom", "3px solid white");
 			$("#contactMemenuLine").css("border-bottom", "1px solid white");
 			$("#pageNumberText").text("3 / 4");
+				if($(window).width() < 481) {
+					$("#hobbiesImg").each(function() {
+						$(this).attr("src", "img/bikeAndRacquetCell.png");
+					});
+			   } else if ($(window).width() >= 481) {
+					$("#hobbiesImg").each(function() {
+					$(this).attr("src","img/bikeAndRacquet.png");
+					});                        
+			   }         
 		} else if (index == 3) {
 			$("#homepageMenuName").css("visibility", "hidden");
 			$("#portfolioMenuName").css("visibility", "hidden");
@@ -43,7 +52,21 @@ $(function() {
 			$("#aboutMeMenuLine").css("border-bottom", "1px solid white");
 			$("#contactMemenuLine").css("border-bottom", "3px solid white");
 			$("#pageNumberText").text("4 / 4");
+			
 		}
 	}  
   });
+});
+
+
+$(window).resize(function(e){
+   if($(window).width() < 481) {
+    	$("#hobbiesImg").each(function() {
+      		$(this).attr("src", "img/bikeAndRacquetCell.png");
+    	});
+   } else if ($(window).width() >= 481) {
+		$("#hobbiesImg").each(function() {
+		$(this).attr("src","img/bikeAndRacquet.png");
+		});                        
+   }         
 });

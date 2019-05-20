@@ -1,10 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
-	background-color: aquamarine;
-}
-
 .portfolioContent{
 	width: 286px;
 }
@@ -95,4 +91,61 @@ nav{
 
 #contactMemenuLine {
 	width: 15px;
+}
+
+.aboutMeContainer {
+	justify-content: center;
+}
+
+.aboutMeSection {
+	width: 380px;
+}
+
+.aboutMeSection p {
+	font-size: 10px;
+}
+
+.aboutMeSection img {
+	width: 107px;
+	height: 103px;
+}
+
+.aboutMeContainer hr {
+	margin: 0;
+}
+
+.biography {
+	width: 250px;
+}
+
+.aboutMeSection h1 {
+	font-size: 11px;
+}
+
+.hobbiesSection {
+	width: 380px;
+}
+
+.hobbiesSection img {
+	width: 241px;
+	height: 116px;
+	border:none;
+	display:block;
+	margin: 0 auto;
+}
+
+.awardsHobbiesWrapper{
+	width:402px;
+}
+
+.languageSection {
+	width: 380px;
+}
+
+.awardsSection {
+	width: 380px;
+}
+
+.awardsSection em {
+	margin: 0px 0px 0px 125px;
 }

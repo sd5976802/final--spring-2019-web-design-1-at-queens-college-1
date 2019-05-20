@@ -1,21 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
-	background-color: #2f4963;
-}
-
 .portfolioContent{
-	width: 440px;
-	margin-left: 25%;
+	width: 420px;
 }
 
 .thumbContainer img {
-	width: 173px;
+	width: 210px;
 }
 
 .thumbContainer {
-	width: 173px;
+	width: 210px;
 }
 
 .thumbContainer h1{
@@ -32,7 +27,7 @@ body{
 
 nav{
 	position: fixed;
-	top: 230px;
+	top: 135px;
 	left: 15px;
 }
 
@@ -45,14 +40,14 @@ nav{
 	font-size: 10px;
 	position: fixed;
 	left: 38px;
-	top: 238px;
+	top: 142px;
 }
 
 #portfolioMenuName{
 	font-size: 10px;
 	position: fixed;
 	left: 38px;
-	top: 255px;
+	top: 160px;
 	visibility: hidden; 
 }
 
@@ -64,7 +59,7 @@ nav{
 	font-size: 10px;
 	position: fixed;
 	left: 38px;
-	top: 271px;
+	top: 176px;
 	visibility: hidden;
 }
 
@@ -76,10 +71,31 @@ nav{
 	font-size: 10px;
 	position: fixed;
 	left: 38px;
-	top: 288px;
+	top: 192px;
 	visibility: hidden;
 }
 
 #contactMemenuLine {
 	width: 20px;
+}
+
+.aboutMeContainer {
+	width: 470px;
+	margin-left: 25px;
+}
+
+.hobbiesSection {
+	width: 128px;
+}
+
+.languageSection{
+	height: 115px;
+}
+
+.awardsHobbiesWrapper{
+	width: 320px;
+}
+
+.awardsSection {
+	height: 90px;
 }
