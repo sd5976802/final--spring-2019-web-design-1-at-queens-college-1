@@ -1,6 +1,6 @@
 body {
-   margin: auto;
-   width: 1366px;
+   /* margin: auto;
+   width: 1366px; */
    background-image: url('../img/home.png');
    background-repeat: repeat-y;
    background-color: black;
@@ -77,13 +77,13 @@ nav > ul > li > a:visited {
    left: 49%;
 }
 
-.container {
+#container {
    margin: auto;
    margin-top: 108px;
-   width: 1260px;
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-around;
+   justify-content: center;
+   /* justify-content: space-around; */
 }
 
 .Thankyou {
@@ -178,33 +178,29 @@ img:hover {
 
 @media (max-width: 400px) {
    body {
-      width: auto;
+      width: 400px;
    }
 
    div > img {
       width: 400px;
    }
-
-   .container {
-      display: flex;
-      flex-direction: column;
-   }
 }
 
 @media (min-width: 401px) and (max-width: 768px) {
    body {
-      width: 768px;
+      width: 600px;
    }
 
    div > img {
-      width: 700px;
+      width: auto;
+      height: 420px;
       align-content: center;
    }
 
-   .container {
+   #container {
       display: flex;
       flex-direction: column;
-      align-content: center;
+      justify-content: center;
    }
 
    .Thankyou {
@@ -223,5 +219,11 @@ img:hover {
 
    div > img {
       width: auto;
+   }
+
+   #container {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
    }
 }
