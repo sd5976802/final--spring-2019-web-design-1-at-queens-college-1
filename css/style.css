@@ -91,6 +91,7 @@ font-family: Lato, sans-serif; */
 .Thankyou {
    margin-top: 10%;
    margin-bottom: 5%;
+   margin-left: 2%;
    font-family: Lato, sans-serif;
    font-size: 1.3rem;
    line-height: 2;
@@ -162,17 +163,6 @@ button {
    border: none;
 }
 
-img:hover {
-   opacity: 0;
-   transition: 1s ease;
-}
-
-.over:hover {
-   height: 100%;
-   opacity: 1;
-   transition: 3s ease;
-}
-
 @media (max-width: 400px) {
    body {
       width: auto;
@@ -187,6 +177,13 @@ img:hover {
       flex-wrap: wrap;
       align-items: center;
    }
+
+   form {
+      font-family: Lato, sans-serif;
+      margin-top: 25%;
+      margin-left: 35%;
+      width: 600px;
+   }
 }
 
 @media (min-width: 401px) and (max-width: 768px) {
@@ -196,6 +193,21 @@ img:hover {
 
    .three {
       width: 400px;
+   }
+
+   .Thankyou {
+      margin-top: 20%;
+   }
+
+   .skills {
+      left: 40%;
+   }
+
+   form {
+      font-family: Lato, sans-serif;
+      margin-top: 20%;
+      margin-left: 25%;
+      width: 600px;
    }
 }
 
