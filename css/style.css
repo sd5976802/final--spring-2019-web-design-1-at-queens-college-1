@@ -184,6 +184,11 @@ img:hover {
    div > img {
       width: 400px;
    }
+
+   .container {
+      display: flex;
+      flex-direction: column;
+   }
 }
 
 @media (min-width: 401px) and (max-width: 768px) {
@@ -198,6 +203,7 @@ img:hover {
    .container {
       display: flex;
       flex-direction: column;
+      align-content: center;
    }
 
    .Thankyou {
