@@ -195,3 +195,27 @@ img:hover {
    transition: 1s ease;
    background-image: url('../img/whitedesktop-02.png');
 }
+
+@media (max-width: 400px) {
+   p {
+      color: red;
+   }
+}
+
+@media (min-width: 401px) and (max-width: 768px) {
+   p {
+      color: green;
+   }
+}
+
+@media (min-width: 769px) and (max-width: 1366px) {
+   p {
+      color: blue;
+   }
+}
+
+@media (min-width: 1367px) {
+   p {
+      color: purple;
+   }
+}
