@@ -42,11 +42,11 @@ body {
 
 .navbar-link > ul > li > a:hover {
    background-color: #d0ccc3;
-   color: black;
+   color: white;
 }
 
 .navbar-link > ul > li > a:active {
-   background-color: yellow;
+   background-color: green;
 }
 
 .navbar-link > ul > li > a:visited {
@@ -80,7 +80,6 @@ label {
    width: 500%;
    margin-top: 60px;
    margin-left: 0;
-   padding: 50px;
    animation: 15s slider infinite;
 }
 
