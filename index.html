@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="witdth=device-width, intial-scale=1.0">
+    <title>Tamille Gerson</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet"
+        media="(max-width: 400px)"
+        href="css/phone.css">
+    <link rel="stylesheet"
+        media="(min-width: 401px) and (max-width: 768px)"
+        href="css/tablet.css">
+    <link rel="stylesheet"
+        media="(min-width: 769px) and (max-width: 1024px)"
+        href="css/laptop.css">
+    <link rel="stylesheet"
+        media="(min-width: 1025px)"
+        href="css/desktop.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Belleza&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="js/myscript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div>
+    <aside class="header">
+      <header>
+        <h1>Tamille Gerson</h1>
+      </header>
+    </aside>
+  </div>
+<nav class="nav">
+    <div id="sidenav" class="nav">
+      <ul>
+      <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+      <li><a href="subpage.html#section1">Home</a></li>
+      <li><a href="subpage.html#section2">Portfolio</a></li>
+      <li><a href="subpage.html#section3">About Me</a><li>
+      <li><a href="subpage.html#section4">Contact</a></li>
+    </ul>
+    </div>
+  </nav>
+
+
+  <aside id="main">
+    <div style="font-size: 30px; cursor: pointer;" onclick="openNav()">&#9776;</div>
+  </aside>
+
+  <div class="content" id="section1">
+    <h2>Welcome</h2>
+  </div>
+  <div class="content" id="section2">
+    <h3>Portfolio</h3>
+      <div class="oceanp"><img src="img/ocean.jpg" alt="ocean" style="width:1000px; height:400px;"></div>
+      <div class="skyp"><img src=img/sky.jpg alt="city sky" style="width:350px; height: 400px"></div>
+      <div class="forestp"><img src=img/forest.jpg alt="forest" style="width: 610px; height: 400px"></div>
+      <div class="beansp"><img src=img/beans-background.jpg alt="beans" style="width:350px; height: 400px;"></div>
+      <div class="circlep"><img src="img/circle.jpg" alt="one trade center" style="width: 350px; height: 400px"></div>
+  </div>
+  <div class="content" id="section3">
+    <div class="aboutme"><h2>About Me</h2></div>
+    <div class="selfimagep"><img src="img/selfimage.jpg" alt="Tamille Gerson" style="width:500px; height:500px; border-radius: 50%"></div>
+    <h4>Hi!</h4>
+  <div class="amp">
+    <p>My name is Tamille and I am a college student at CUNY Queens College</p>
+    <p></p>
+  </div>
+  </div>
+  <div class="content" id="section4">
+    <h3>Contact</h3>
+    <div class="container">
+      <form action="action_page.php">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your First Name...">
+
+         <label for="lname">Last Name</label>
+         <input type="text" id="lname" name="lastname" placeholder="Your Last Name...">
+
+         <label for="subject">Subject</label>
+         <textarea id="subject" name="subject" placeholder="Write out a comment.."></textarea>
+
+         <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+  <footer>
+    <p>Copyright | Tamille Gerson</p>
+  </footer>
+  </body>
+</html>
