@@ -319,7 +319,6 @@ padding-left: 1.5rem
 #dis {
    text-align: left;
    line-height: normal;
-   font-size: 2rem;
-   height: auto;
-   width: auto;
+   font-size: 1.5rem;
+
 }
