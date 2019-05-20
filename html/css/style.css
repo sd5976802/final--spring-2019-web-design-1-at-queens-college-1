@@ -1,0 +1,23 @@
+h1 {
+   font-family: 'Playfair Display SC', serif;
+   color: white;
+   background-color: inherit;
+}
+
+p {
+   font-family: 'Nanum Myeongjo', serif;
+   color: white;
+   background-color: inherit;
+   width: 70%;
+   margin: auto;
+}
+
+img {
+   width: 70%;
+}
+
+html {
+   background: black;
+   color: inherit;
+   text-align: center;
+}

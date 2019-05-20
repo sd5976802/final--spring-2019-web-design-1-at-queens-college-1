@@ -1,0 +1,212 @@
+html {
+   overflow-x: hidden;
+   width: 768px;
+}
+
+#home {
+   width: 768px;
+   height: 800px;
+}
+
+#home img {
+   width: 682px;
+   margin-left: 30px;
+   margin-top: 255px;
+}
+
+.nav1 {
+   font-family: 'Nanum Myeongjo', serif;
+   font-size: 20px;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   background-color: black;
+   color: inherit;
+   z-index: 1;
+   flex-direction: row-reverse;
+}
+
+.nav1 > ul {
+   text-align: center;
+   margin-left: -40px;
+   list-style-type: none;
+}
+
+.nav1 > ul > li {
+   width: 24%;
+   background-color: black;
+   color: inherit;
+   display: inline-block;
+}
+
+.nav1 > ul > li > a {
+   display: block;
+   width: 100%;
+   padding: 5px 0;
+   transition: 200ms;
+   color: white;
+   background-color: inherit;
+}
+
+.nav1 > ul > li > a:link {
+   color: white;
+   background-color: inherit;
+}
+
+.nav1 > ul > li > a:hover {
+   background-color: white;
+   color: inherit;
+}
+
+a:link {
+   text-decoration: none;
+}
+
+.nav2 {
+   display: none;
+}
+
+.nav1 a{
+   display: none;
+}
+
+#portfolio {
+   background-color: black;
+   color: inherit;
+   width: 768px;
+   height: 800px;
+   padding-top: 75px;
+}
+
+.row1 {
+   display: flex;
+   width: 100vw;
+   padding-bottom: 0;
+}
+
+.row1 img {
+   width: 252px;
+}
+
+.row2 {
+   display: flex;
+   width: 100vw;
+   margin-top: -22px;
+   padding-bottom: 0;
+}
+
+.row2 img {
+   width: 190px;
+}
+
+.row3 {
+   display: flex;
+   width: 100vw;
+   margin-top: -22px;
+}
+
+.row3 img {
+   width: 252px;
+}
+
+#aboutme {
+   background-color: black;
+   color: inherit;
+   height: 800px;
+}
+
+#aboutme h2 {
+   font-family: 'Playfair Display SC', serif;
+   font-size: 42px;
+   font-weight: 400;
+   color: white;
+   background-color: inherit;
+   margin-left: 60px;
+   margin-top: -700px;
+}
+
+#aboutme p {
+   font-size: 19px;
+   width: 490px;
+   color: white;
+   background-color: inherit;
+   font-family: 'Nanum Myeongjo', serif;
+   margin-left: 60px;
+   margin-top: -10px;
+   line-height: 25px;
+}
+
+#aboutme img {
+   margin-left: 180px;
+   margin-top: 430px;
+   width: 530px;
+}
+
+#contact {
+   background-color: black;
+   color: inherit;
+   height: 800px;
+}
+
+#contact img {
+   width: 820px;
+   transform: rotate(-90deg);
+   margin-bottom: -489px;
+   margin-left: -340px;
+   height: 220px;
+   z-index: 0;
+}
+
+#contact h1 {
+   margin-left: 260px;
+   margin-top: 126px;
+   font-size: 44px;
+   color: white;
+   background-color: inherit;
+   font-family: 'Playfair Display SC', serif;
+}
+
+#contact form {
+   width: 80%;
+   margin-left: 143px;
+   background-color: black;
+   color: inherit;
+}
+
+#contact input {
+   font-family: 'Playfair Display SC', serif;
+   width: 50%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 18px;
+   font-size: 20px;
+   background-color: transparent;
+   color: inherit;
+   border: 1px solid white;
+}
+
+#contact #submit {
+   font-family: 'Playfair Display SC', serif;
+   color: rgba(255, 255, 255, .5);
+   font-size: 24px;
+   width: 30%;
+   background-color: transparent;
+   margin-right: 134px;
+}
+
+#contact textarea {
+   width: 92.5%;
+   height: 140px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 20px;
+}
+
+#contact input:focus {
+   background-color: antiquewhite;
+   color: inherit;
+   transition: all .5s;
+}
