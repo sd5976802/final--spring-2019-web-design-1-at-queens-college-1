@@ -164,14 +164,14 @@ h1 {
 /* About */
 .about-image {
    position: relative;
-   width: 308px;
+   width: 400px;
    margin: auto;
    margin-top: 80px;
 }
 
 .about-image > img {
-   width: 308px;
-   height: 308px;
+   width: 400px;
+   height: 400px;
 }
 
 p:nth-of-type(1) {
@@ -192,14 +192,14 @@ p:nth-of-type(2) {
 .fab.fa-linkedin-in {
    position: absolute;
    top: 765px;
-   left: 30px;
+   left: 90px;
    font-size: 32px;
 }
 
 .far.fa-envelope {
    position: absolute;
    top: 765px;
-   left: 92px;
+   left: 150px;
    font-size: 32px;
 }
 
@@ -207,7 +207,7 @@ p:nth-of-type(3) {
    position: absolute;
    font-size: 29px;
    top: 736px;
-   left: 155px;
+   left: 215px;
    letter-spacing: 1px;
 }
 
@@ -216,8 +216,8 @@ p:nth-of-type(4) {
    font-size: 31px;
    text-decoration: underline;
    margin: auto;
-   margin-left: 822px;
-   margin-top: 151px;
+   margin-left: 1018px;
+   margin-top: 59px;
 }
 
 p > a {
