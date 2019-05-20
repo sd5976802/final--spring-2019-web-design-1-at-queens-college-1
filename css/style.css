@@ -54,12 +54,6 @@ nav > ul > li > a:visited {
    color: white;
 }
 
-.home {
-   position: fixed;
-   top: 0;
-   left: 0;
-}
-
 .homenav {
    position: fixed;
    top: 45%;
@@ -70,6 +64,15 @@ nav > ul > li > a:visited {
    font-family: Lato, sans-serif;
    transition: 2s;
 }
+
+/* position: fixed;
+top: 0;
+left: 0;
+width: 100vw;
+height: 56px;
+/* border-bottom: 10px solid #3b3b3c; */
+/* background-color: #262626;
+font-family: Lato, sans-serif; */
 
 .ceshi {
    position: fixed;
@@ -83,14 +86,13 @@ nav > ul > li > a:visited {
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
-   /* justify-content: space-around; */
 }
 
 .Thankyou {
    margin-top: 10%;
    margin-bottom: 5%;
    font-family: Lato, sans-serif;
-   font-size: 1.5rem;
+   font-size: 1.3rem;
    line-height: 2;
 }
 
@@ -167,48 +169,33 @@ img:hover {
 
 .over:hover {
    height: 100%;
-   top: 0;
-   bottom: 0;
-   left: 0;
-   right: 0;
    opacity: 1;
-   transition: 1s ease;
-   background-image: url('../img/whitedesktop-02.png');
+   transition: 3s ease;
 }
 
 @media (max-width: 400px) {
    body {
-      width: 400px;
+      width: auto;
    }
 
-   div > img {
-      width: 400px;
+   .three {
+      width: auto;
+   }
+
+   #container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
    }
 }
 
 @media (min-width: 401px) and (max-width: 768px) {
    body {
-      width: 600px;
-   }
-
-   div > img {
       width: auto;
-      height: 420px;
-      align-content: center;
    }
 
-   #container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-   }
-
-   .Thankyou {
-      margin-top: 10%;
-      margin-bottom: 5%;
-      font-family: Lato, sans-serif;
-      font-size: 1rem;
-      line-height: 2;
+   .three {
+      width: 400px;
    }
 }
 
@@ -217,13 +204,13 @@ img:hover {
       width: auto;
    }
 
-   div > img {
-      width: auto;
+   .three {
+      width: 400px;
    }
 
    #container {
       display: flex;
-      flex-direction: column;
+      flex-wrap: wrap;
       align-content: center;
    }
 }
