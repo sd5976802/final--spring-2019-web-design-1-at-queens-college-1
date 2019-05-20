@@ -7,21 +7,6 @@ body {
    color: white;
 }
 
-/* nav {
-   font-family: 'Lato', sans-serif;
-   font-style: normal;
-   font-variant: small-caps;
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100vw;
-   height: 30px;
-   background-color: black;
-   box-shadow: 0 0 5px black;
-   list-style-type: none;
-   padding-top: 15px;
-} */
-
 nav {
    position: fixed;
    top: 0;
@@ -47,10 +32,6 @@ nav > ul > li {
    text-align: center;
    display: inline-block;
 }
-
-/* nav > ul > li:last-of-type {
-   border-right: 1px solid white;
-} */
 
 nav > ul > li > a {
    display: block;
@@ -197,25 +178,63 @@ img:hover {
 }
 
 @media (max-width: 400px) {
-   p {
-      color: red;
+   body {
+      width: auto;
    }
 }
 
 @media (min-width: 401px) and (max-width: 768px) {
-   p {
-      color: green;
+   body {
+      width: 400px;
+   }
+
+   div > img {
+      width: 200px;
+   }
+
+   nav {
+      width: auto;
+   }
+
+   .container {
+      display: flex;
+      flex-direction: column;
    }
 }
 
 @media (min-width: 769px) and (max-width: 1366px) {
-   p {
-      color: blue;
+   body {
+      width: 768px;
    }
-}
 
-@media (min-width: 1367px) {
-   p {
-      color: purple;
+   div > img {
+      width: 710px;
    }
+
+   nav {
+      width: auto;
+   }
+
+   .container {
+      display: flex;
+      flex-direction: column;
+   }
+
+/* @media (min-width: 1367px) {
+   body {
+      width: 1366px;
+   }
+
+   img {
+      width: 355px;
+   }
+
+   nav {
+      width: auto;
+   }
+
+   .container {
+      display: flex;
+      flex-direction: column;
+   } */
 }
