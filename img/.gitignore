@@ -2,6 +2,7 @@
 
 !.gitignore
 !*.jpg
+!*.jpeg
 !*.png
 !*.webp
 !*.svg
