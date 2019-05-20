@@ -34,9 +34,9 @@
    .content {
      display: flex;
      height: 600px;
-     align-items:flex-start;
+     align-items: flex-start;
      display: flex;
-     justify-content: space-around;
+     justify-content: flex-start;
      background-color: #B9D6F0;
      padding: 1em 1em;
    }
@@ -106,9 +106,9 @@
    .content {
      display: flex;
      height: 600px;
-     align-items: center;
+     align-items: flex-start;
      display: flex;
-     justify-content: space-around;
+     justify-content: flex-start;
      background-color: #B9D6F0;
      padding: 1em 1em;
    }
@@ -178,9 +178,9 @@
    .content {
      display: flex;
      height: 600px;
-     align-items:flex-start;
+     align-items: flex-start;
      display: flex;
-     justify-content: space-around;
+     justify-content: flex-start;
      background-color: #B9D6F0;
      padding: 1em 1em;
    }
@@ -247,9 +247,9 @@
    .content {
      display: flex;
      height: 600px;
-     align-items:flex-start;
+     align-items: flex-start;
      display: flex;
-     justify-content: space-around;
+     justify-content: flex-start;
      background-color: #B9D6F0;
      padding: 1em 1em;
    }
