@@ -1,0 +1,19 @@
+label {
+   display: block;
+   cursor: pointer;
+}
+
+.navbar-link {
+   text-align: center;
+   width: 100%;
+   display: none;
+}
+
+.navbar-link ul {
+   display: block;
+   margin-left: 100px;
+}
+
+#toggle:checked + .navbar-link {
+   display: block;
+}

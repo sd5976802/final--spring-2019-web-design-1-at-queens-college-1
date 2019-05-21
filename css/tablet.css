@@ -1,0 +1,47 @@
+.navbar-link > ul {
+   margin-left: -50px;
+}
+
+.navbar-link > ul > li {
+   width: 200px;
+}
+
+.navbar-link > ul > li > a {
+   display: block;
+   padding: 15px 0;
+}
+
+.navbar-link > ul > li > a:link {
+   font-size: 20px;
+}
+
+.current {
+   font-size: 20px;
+}
+
+.box img {
+   padding: 15px;
+   margin-left: 20px;
+   width: 80%;
+}
+
+.box p {
+   font-size: 30px;
+   width: 40%;
+   height: 100px;
+   padding: 50px;
+}
+
+.des {
+   padding: 10px;
+   text-align: center;
+   color: black;
+   width: 200px;
+   background-color: white;
+ }
+
+.container{
+   padding: 0 8px;
+   float: left;
+   width: 50%;
+ }
