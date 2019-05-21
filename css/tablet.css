@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+.portfolioContent{
+	width: 420px;
+}
+
+.thumbContainer img {
+	width: 210px;
+}
+
+.thumbContainer {
+	width: 210px;
+}
+
+.thumbContainer h1{
+	font-size: 10px;
+}
+
+.thumbContainer p{
+	font-size: 8px;
+}
+
+.logo img {
+	width: 75px;
+}
+
+nav{
+	position: fixed;
+	top: 135px;
+	left: 15px;
+}
+
+#homepageMenuLine{
+	width:20px;
+	border-bottom: 3px solid white;
+}
+
+#homepageMenuName{
+	font-size: 10px;
+	position: fixed;
+	left: 38px;
+	top: 142px;
+}
+
+#portfolioMenuName{
+	font-size: 10px;
+	position: fixed;
+	left: 38px;
+	top: 160px;
+	visibility: hidden; 
+}
+
+#portfolioMenuLine {
+	width: 20px;
+}
+
+#aboutMeMenuName{
+	font-size: 10px;
+	position: fixed;
+	left: 38px;
+	top: 176px;
+	visibility: hidden;
+}
+
+#aboutMeMenuLine {
+	width: 20px;
+}
+
+#contactMemenuName{
+	font-size: 10px;
+	position: fixed;
+	left: 38px;
+	top: 192px;
+	visibility: hidden;
+}
+
+#contactMemenuLine {
+	width: 20px;
+}
+
+.aboutMeContainer {
+	width: 470px;
+	margin-left: 25px;
+}
+
+.hobbiesSection {
+	width: 128px;
+}
+
+.languageSection{
+	height: 115px;
+}
+
+.awardsHobbiesWrapper{
+	width: 320px;
+}
+
+.awardsSection {
+	height: 90px;
+}
+
+.mainContent em {
+	font-size: 10vw;
+}
+
+.mainContent p {
+	font-size: 2vw;
+}
