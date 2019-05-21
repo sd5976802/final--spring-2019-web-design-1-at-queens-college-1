@@ -1,0 +1,54 @@
+body {
+  display: block;
+  margin: 20px;
+  background: #B8B696;
+}
+header {
+  font-family: 'Fjalla One', sans-serif;
+}
+h1 {
+  display: block;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 2%;
+  color: rgb(112, 112, 112);
+}
+div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: -2.5px;
+  position: absolute;
+  left: 30%;
+  top:360px;
+}
+nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 45px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: rgb(112, 112, 112);
+}
+nav li {
+  display: inline;
+}
+nav ul {
+  width: 100%;
+}
+nav ul li {
+  width: 33%;
+  left: 50px;
+  float: left;
+  margin-top: 4%
+}
+nav ul li a {
+  display:block;
+  color: rgb(112, 112, 112)
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
