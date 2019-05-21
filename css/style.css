@@ -1,0 +1,222 @@
+body {
+   background-image: url('../img/home.png');
+   background-repeat: repeat-y;
+   background-color: black;
+   color: white;
+}
+
+nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100vw;
+   height: 56px;
+   background-color: #262626;
+   font-family: Lato, sans-serif;
+}
+
+nav > ul {
+   display: flex;
+   justify-content: center;
+   margin: auto;
+}
+
+nav > ul > li {
+   width: 30%;
+   margin: auto;
+   text-align: center;
+   display: inline-block;
+}
+
+nav > ul > li > a {
+   display: block;
+   padding: 20px 0;
+   transition: 375ms;
+}
+
+nav > ul > li > a:link {
+   color: white;
+   text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+   background-color: black;
+   font-weight: 700;
+}
+
+nav > ul > li > a:visited {
+   color: white;
+}
+
+.homenav {
+   position: fixed;
+   top: 45%;
+   left: 0;
+   width: 100vw;
+   height: 55px;
+   background-color: #262626;
+   font-family: Lato, sans-serif;
+   transition: 2s;
+}
+
+/* position: fixed;
+top: 0;
+left: 0;
+width: 100vw;
+height: 56px;
+/* border-bottom: 10px solid #3b3b3c; */
+/* background-color: #262626;
+font-family: Lato, sans-serif; */
+
+.ceshi {
+   position: fixed;
+   top: 56px;
+   left: 49%;
+}
+
+#container {
+   margin: auto;
+   margin-top: 108px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.Thankyou {
+   margin-top: 10%;
+   margin-bottom: 5%;
+   margin-left: 2%;
+   font-family: Lato, sans-serif;
+   font-size: 1.3rem;
+   line-height: 2;
+}
+
+.line {
+   position: absolute;
+   width: 100vw;
+   background-color: #262626;
+   top: 45%;
+   left: 0;
+   height: 30px;
+   font-family: Lato, sans-serif;
+   font-weight: 300;
+   color: white;
+   text-align: center;
+   padding-top: 15px;
+}
+
+.skills {
+   position: absolute;
+   top: 56%;
+   left: 47%;
+   text-align: center;
+   font-family: Lato, sans-serif;
+   padding: 35px 0;
+   line-height: 1.5;
+}
+
+form {
+   font-family: Lato, sans-serif;
+   margin-top: 12%;
+   margin-left: 37%;
+   width: 600px;
+}
+
+form div + div {
+   margin-top: 40px;
+}
+
+label {
+   font-size: 1.1rem;
+   display: grid;
+   /* width: 90px;
+   height: 30px; */
+}
+
+input {
+   font-family: Lato, sans-serif;
+   width: 350px;
+   height: 30px;
+}
+
+textarea {
+   font-family: Lato, sans-serif;
+   font-size: 1.1rem;
+   width: 350px;
+   vertical-align: top;
+   height: 5em;
+}
+
+.button {
+   margin-top: 20px;
+   margin-left: 5%;
+}
+
+button {
+   background-color: inherit;
+   border: none;
+}
+
+@media (max-width: 400px) {
+   body {
+      width: auto;
+   }
+
+   .three {
+      width: auto;
+   }
+
+   #container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+   }
+
+   form {
+      font-family: Lato, sans-serif;
+      margin-top: 25%;
+      margin-left: 35%;
+      width: 600px;
+   }
+}
+
+@media (min-width: 401px) and (max-width: 768px) {
+   body {
+      width: auto;
+   }
+
+   .three {
+      width: 400px;
+   }
+
+   .Thankyou {
+      margin-top: 20%;
+   }
+
+   .skills {
+      left: 40%;
+   }
+
+   form {
+      font-family: Lato, sans-serif;
+      margin-top: 20%;
+      margin-left: 25%;
+      width: 600px;
+   }
+}
+
+@media (min-width: 769px) and (max-width: 1366px) {
+   body {
+      width: auto;
+   }
+
+   .three {
+      width: 400px;
+   }
+
+   #container {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+   }
+}
