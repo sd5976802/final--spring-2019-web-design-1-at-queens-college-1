@@ -270,24 +270,12 @@ nav li a:hover{
 
 }
 .selfie> img{
-   border-collapse: separate;
-   border-spacing: 5px;
-   border:3px solid #61105e;
-   border-width: thin;
-   border-right: 0px;
-   border-radius: 10% 0% 0% 10%;
-   width: 100%;
+   border-radius: 10%;
+   width: 95%;
 }
 .text{
    text-indent: 10%;
    color:#c4cacc;
-   border-collapse: separate;
-   border-spacing: 5px;
-   border:3px solid #61105e;
-   border-width: thin;
-   border-left:0px;
-   border-radius: 0% 10% 10% 0%;
-   background-color: rgb(97,16,94, 0.2);
    font-size: 20px;
    line-height: 1.2em;
    font-family: 'Barlow', sans-serif;
