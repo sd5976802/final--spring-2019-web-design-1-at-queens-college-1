@@ -6,8 +6,7 @@
 */
 /* below are universal settings */
 body{
-   background: rgb(73,76,82);
-   background: linear-gradient(0deg, rgba(73,76,82,1) 0%, rgba(46,46,50,1) 31%, rgba(22,22,25,1) 59%);
+   background-color: #161619;
    color:#ececf5;
    display: flex;
    flex-wrap: wrap;
